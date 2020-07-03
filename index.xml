@@ -3,7 +3,8 @@
         <title>WTPersonal</title>
         <link>http://wtpersonal.xyz/</link>
         <description>我的hugo_loveit主题</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
+            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster>
             <atom:link href="http://wtpersonal.xyz/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>
