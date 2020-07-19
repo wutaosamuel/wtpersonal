@@ -2,7 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://wtpersonal.xyz/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://wtpersonal.xyz/en/tags/archives/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://wtpersonal.xyz/en/categories/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://wtpersonal.xyz/categories/"
@@ -11,7 +12,52 @@
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/categories/"
                     /></url><url>
-            <loc>http://wtpersonal.xyz/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://wtpersonal.xyz/en/posts/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/posts/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/proxmox/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/tags/proxmox/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/tags/proxmox/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/categories/proxmox/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/categories/proxmox/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/categories/proxmox/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/sources/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/sources/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/sources/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/pve/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/tags/pve/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/tags/pve/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://wtpersonal.xyz/tags/"
@@ -20,7 +66,7 @@
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/tags/"
                     /></url><url>
-            <loc>http://wtpersonal.xyz/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://wtpersonal.xyz/en/</loc><lastmod>2020-07-19T17:00:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://wtpersonal.xyz/"
@@ -28,4 +74,14 @@
                     rel="alternate"
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/"
-                    /></url></urlset>
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/about/</loc><lastmod>2020-07-09T14:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/about/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/about/</loc><lastmod>2020-07-09T14:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url></urlset>

@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - WTPersonal</title>
+        <link>http://wtpersonal.xyz/en/posts/</link>
+        <description>All Posts | WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
+            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Sun, 19 Jul 2020 16:52:26 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Proxmox changes Sources</title>
+    <link>http://wtpersonal.xyz/en/sources/</link>
+    <pubDate>Sun, 19 Jul 2020 16:52:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://wtpersonal.xyz/en/sources/</guid>
+    <description><![CDATA[The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source。]]></description>
+</item></channel>
+</rss>

@@ -4,7 +4,21 @@
         <link>http://wtpersonal.xyz/</link>
         <description>我的hugo_loveit主题</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
-            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster>
+            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Sun, 19 Jul 2020 16:52:21 &#43;0800</lastBuildDate>
             <atom:link href="http://wtpersonal.xyz/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>Proxmox换源</title>
+    <link>http://wtpersonal.xyz/sources/</link>
+    <pubDate>Sun, 19 Jul 2020 16:52:21 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://wtpersonal.xyz/sources/</guid>
+    <description><![CDATA[由于国内连接国外官方源速度不开，所以需要更换软件源。 而且Proxmox官方源需要订阅，但是家庭使用只要免费的社区源， 也需要更换Proxmox]]></description>
+</item><item>
+    <title>折腾Hugo静态网站</title>
+    <link>http://wtpersonal.xyz/hugo_loveit/</link>
+    <pubDate>Wed, 01 Jul 2020 12:53:26 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://wtpersonal.xyz/hugo_loveit/</guid>
+    <description><![CDATA[背景 很早之前就听说过Github推出了一个叫Git Page的产品 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的win]]></description>
+</item></channel>
 </rss>
