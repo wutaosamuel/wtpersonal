@@ -6,7 +6,7 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>折腾Hugo静态网站 - WTPersonal</title><meta name="Description" content="我的hugo_loveit主题"><meta property="og:title" content="折腾Hugo静态网站" />
-<meta property="og:description" content="背景 很早之前就听说过Github推出了一个叫Git Page的产品 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的win" />
+<meta property="og:description" content="背景 很早之前就听说过Github推出了一个叫Git Page的产品 &hellip; 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的wi" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://wtpersonal.xyz/hugo_loveit/" />
 <meta property="og:image" content="http://wtpersonal.xyz/logo.png"/>
@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="http://wtpersonal.xyz/logo.png"/>
 
 <meta name="twitter:title" content="折腾Hugo静态网站"/>
-<meta name="twitter:description" content="背景 很早之前就听说过Github推出了一个叫Git Page的产品 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的win"/>
+<meta name="twitter:description" content="背景 很早之前就听说过Github推出了一个叫Git Page的产品 &hellip; 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的wi"/>
 <meta name="application-name" content="WT">
 <meta name="apple-mobile-web-app-title" content="WT"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/wtpersonal.xyz\/hugo_loveit\/"
-        },"genre": "posts","keywords": "归档, Hugo, LoveIt","wordcount":  877 ,
+        },"genre": "posts","keywords": "归档, Hugo, LoveIt","wordcount":  929 ,
         "url": "http:\/\/wtpersonal.xyz\/hugo_loveit\/","datePublished": "2020-07-01T12:53:26+08:00","dateModified": "2020-07-19T15:02:21+08:00","publisher": {
             "@type": "Organization",
             "name": "WuTao","logo": "http:\/\/wtpersonal.xyz\/images\/avataaar.png"},"author": {
@@ -83,7 +83,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">折腾Hugo静态网站</h1><h2 class="single-subtitle">--LoveIt 主题</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>WuTao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%BD%92%E6%A1%A3/"><i class="far fa-folder fa-fw"></i>归档</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-07-01">2020-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 877 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-07-01">2020-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 929 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -107,7 +107,7 @@
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h2 id="背景">背景</h2>
-<p>很早之前就听说过Github推出了一个叫Git Page的产品</p>
+<p>很早之前就听说过Github推出了一个叫Git Page的产品 &hellip;</p>
 <h2 id="准备">准备</h2>
 <p>因为在很多开发，部署，测试的情况需要下载很多依赖，
 所以我不会在我的windows主力机上做开发。
@@ -140,7 +140,8 @@
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> <span class="nv">$GOPATH</span>/src/github.com/gohugoio/hugo
 </code></pre></td></tr></table>
 </div>
-</div><p>安装(请做好代理):</p>
+</div><p>这里会使用Sass/SCSS，所以在用Go安装的时候会用extended的tag。</p>
+<p>安装(请做好代理):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -207,7 +208,7 @@
 <pre class="chroma"><code class="language-bash" data-lang="bash">hugo new posts/first_post.zh-cn.md
 </code></pre></td></tr></table>
 </div>
-</div><p>可以直接<strong>content/posts/first_post.zh-cn.md</strong>文件</p>
+</div><p>之后就可以直接编辑<strong>content/posts/first_post.zh-cn.md</strong>文件</p>
 <h3 id="预览网站">预览网站</h3>
 <p>本地启动网站:</p>
 <div class="highlight"><div class="chroma">
@@ -232,7 +233,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>会生成public的文件夹。
-将public文件夹git 初始化之后就可以上传到对应的github仓库上。</p>
+将public文件夹git 初始化之后就可以上传到对应的github page的仓库上。</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -259,7 +260,7 @@
     </div>
 
     <div class="post-nav">
-            <a href="/sources/" class="next" rel="next" title="Proxmox换源">Proxmox换源<i class="fas fa-angle-right fa-fw"></i></a></div>
+            <a href="/sources/" class="next" rel="next" title="Proxmox 换源">Proxmox 换源<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

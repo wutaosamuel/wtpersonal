@@ -3,7 +3,7 @@
 
 ## 背景
 
-  很早之前就听说过Github推出了一个叫Git Page的产品
+  很早之前就听说过Github推出了一个叫Git Page的产品 ...
 
 ## 准备
 
@@ -32,6 +32,8 @@ go get -u -v github.com/gohugoio/hugo
 ```bash
 cd $GOPATH/src/github.com/gohugoio/hugo
 ```
+
+这里会使用Sass/SCSS，所以在用Go安装的时候会用extended的tag。
 
 安装(请做好代理):
 
@@ -85,7 +87,7 @@ git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
 hugo new posts/first_post.zh-cn.md
 ```
 
-可以直接**content/posts/first_post.zh-cn.md**文件
+之后就可以直接编辑**content/posts/first_post.zh-cn.md**文件
 
 ### 预览网站
 
@@ -109,5 +111,5 @@ hugo
 ```
 
 会生成public的文件夹。
-将public文件夹git 初始化之后就可以上传到对应的github仓库上。
+将public文件夹git 初始化之后就可以上传到对应的github page的仓库上。
 

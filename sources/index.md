@@ -1,4 +1,4 @@
-# Proxmox换源
+# Proxmox 换源
 
 
 由于国内连接国外官方源速度不开，所以需要更换软件源。
@@ -42,4 +42,6 @@ wget http://download.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/t
 ```bash
 echo "deb https://mirrors.ustc.edu.cn/proxmox/debian/pve buster pve-no-subscription" > /etc/apt/source.list.d/pve-no-subscription.list
 ```
+
+完成！
 

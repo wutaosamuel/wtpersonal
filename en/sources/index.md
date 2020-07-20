@@ -47,3 +47,5 @@ Add USTC Proxmox sources
 echo "deb https://mirrors.ustc.edu.cn/proxmox/debian/pve buster pve-no-subscription" > /etc/apt/source.list.d/pve-no-subscription.list
 ```
 
+Done!
+

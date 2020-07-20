@@ -5,7 +5,7 @@
         <description>归档 - 标签 - WTPersonal</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
             <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Sun, 19 Jul 2020 16:52:21 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/tags/%E5%BD%92%E6%A1%A3/" rel="self" type="application/rss+xml" /><item>
-    <title>Proxmox换源</title>
+    <title>Proxmox 换源</title>
     <link>http://wtpersonal.xyz/sources/</link>
     <pubDate>Sun, 19 Jul 2020 16:52:21 &#43;0800</pubDate>
     <author>作者</author>
@@ -17,6 +17,6 @@
     <pubDate>Wed, 01 Jul 2020 12:53:26 &#43;0800</pubDate>
     <author>作者</author>
     <guid>http://wtpersonal.xyz/hugo_loveit/</guid>
-    <description><![CDATA[背景 很早之前就听说过Github推出了一个叫Git Page的产品 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的win]]></description>
+    <description><![CDATA[背景 很早之前就听说过Github推出了一个叫Git Page的产品 &hellip; 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的wi]]></description>
 </item></channel>
 </rss>
