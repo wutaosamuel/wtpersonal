@@ -44,7 +44,7 @@ wget http://download.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/t
 Add USTC Proxmox sources
 
 ```bash
-echo "deb https://mirrors.ustc.edu.cn/proxmox/debian/pve buster pve-no-subscription" > /etc/apt/source.list.d/pve-no-subscription.list
+echo "deb https://mirrors.ustc.edu.cn/proxmox/debian/pve buster pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list
 ```
 
 Done!

@@ -111,5 +111,6 @@ hugo
 ```
 
 会生成public的文件夹。
-将public文件夹git 初始化之后就可以上传到对应的github page的仓库上。
+
+将public文件夹下内容git commit(需要git初始化)记录之后就可以上传到对应的github page的仓库上。
 

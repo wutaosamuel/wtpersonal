@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>命令 - 标签 - WTPersonal</title>
+        <link>http://wtpersonal.xyz/tags/%E5%91%BD%E4%BB%A4/</link>
+        <description>命令 - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
+            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/tags/%E5%91%BD%E4%BB%A4/" rel="self" type="application/rss+xml" /><item>
+    <title>类unix系统命令</title>
+    <link>http://wtpersonal.xyz/command/</link>
+    <pubDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://wtpersonal.xyz/command/</guid>
+    <description><![CDATA[纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf/iperf3服务， 再用客户端iper]]></description>
+</item></channel>
+</rss>

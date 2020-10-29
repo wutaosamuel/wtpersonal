@@ -4,7 +4,16 @@
         <link>http://wtpersonal.xyz/en/posts/</link>
         <description>All Posts | WTPersonal</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
-            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Sun, 19 Jul 2020 16:52:26 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/en/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Unix-like System Commands</title>
+    <link>http://wtpersonal.xyz/en/command/</link>
+    <pubDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://wtpersonal.xyz/en/command/</guid>
+    <description><![CDATA[Record infrequently used but potential useful commands
+Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service 1  iperf3 -s -p 5201   Open client-side iperf3 service 1  iperf3 -c [ip address] -p 5201   ]]></description>
+</item><item>
     <title>Proxmox changes Sources</title>
     <link>http://wtpersonal.xyz/en/sources/</link>
     <pubDate>Sun, 19 Jul 2020 16:52:26 &#43;0800</pubDate>
