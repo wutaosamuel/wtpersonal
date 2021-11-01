@@ -24,13 +24,13 @@
 也可以像我我一样用go get，同时他也会下载依赖(请做好代理):
 
 ``` bash
-go get -u -v github.com/gohugoio/hugo
+git clone github.com/gohugoio/hugo
 ```
 
 再进入Go源码文件夹下hugo的文件夹:
 
 ```bash
-cd $GOPATH/src/github.com/gohugoio/hugo
+cd hugo
 ```
 
 这里会使用Sass/SCSS，所以在用Go安装的时候会用extended的tag。

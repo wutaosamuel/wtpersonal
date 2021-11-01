@@ -4,7 +4,14 @@
         <link>http://wtpersonal.xyz/tags/%E5%BD%92%E6%A1%A3/</link>
         <description>归档 - 标签 - WTPersonal</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
-            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/tags/%E5%BD%92%E6%A1%A3/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Sun, 15 Nov 2020 16:41:50 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/tags/%E5%BD%92%E6%A1%A3/" rel="self" type="application/rss+xml" /><item>
+    <title>Proxmox 命令</title>
+    <link>http://wtpersonal.xyz/command/</link>
+    <pubDate>Sun, 15 Nov 2020 16:41:50 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://wtpersonal.xyz/command/</guid>
+    <description><![CDATA[记录使用过的Proxmox VE命令。 目录 import disk img Import disk img 将.img的镜像转换为虚拟机(VM)的磁盘。 这里的例子是转换openWRT镜像到虚拟机的]]></description>
+</item><item>
     <title>类unix系统命令</title>
     <link>http://wtpersonal.xyz/command/</link>
     <pubDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</pubDate>

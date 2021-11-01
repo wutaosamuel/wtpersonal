@@ -1,28 +1,29 @@
-# 类unix系统命令
+# Proxmox 命令
 
 
-纪录一些可能有用的，不经常使用的命令。
+记录使用过的Proxmox VE命令。
 
 ## 目录
 
-1. [iperf3 - 测试网络速度](#iperf3)
+1. [import disk img](#import-disk-img)
 
-## iperf3
+### Import disk img
 
-测试设备间网络速度。
-先开启服务端iperf/iperf3服务，
-再用客户端iperf/iperf3测速。
-windows下为iperf3.exe应用。
+将.img的镜像转换为虚拟机(VM)的磁盘。
 
-### 服务端开启
+- 这里的例子是转换openWRT镜像到虚拟机的磁盘。
 
-```bash
-iperf3 -s -p 5201
+```sh
+qm importdisk [VM id] [image path] [storage id]
 ```
 
-### 客户端开启
+Example:
 
-```bash
+```sh
+qm importdisk 100 ./openwrt.img local-lvm
+```
+
+h
 iperf3 -c [ip address] -p 5201
 ```
 
