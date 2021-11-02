@@ -1,28 +1,25 @@
-# Unix-like System Commands
+# Proxmox Commands
 
 
-Record infrequently used but potential useful commands
+Record usd Proxmox VE commands.
 
-## Contents
+## 目录
 
-1. [iperf3 - Network speed test](#iperf3)
+1. [import disk img](#import-disk-img)
 
-## iperf3
+### Import disk img
 
-Test network speed between devices.
-First, open server-side iperf/iperf3 service,
-then, test it by client-side iperf/iperf3 application.
-Under windows system, the application is iperf3.exe.
+Transfer .img disc image file to Virtual Machine(vm) disk.
 
-### Open server-side iperf3 service
+- The example is to transfer openWRT image file to VM disk.
 
-```bash
-iperf3 -s -p 5201
+```sh
+qm importdisk [VM id] [image path] [storage id]
 ```
 
-### Open client-side iperf3 service
+Example:
 
-```bash
-iperf3 -c [ip address] -p 5201
+```sh
+qm importdisk 100 ./openwrt.img local-lvm
 ```
 
