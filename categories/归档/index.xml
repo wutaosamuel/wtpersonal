@@ -11,12 +11,5 @@
     <author>作者</author>
     <guid>http://wtpersonal.xyz/command/</guid>
     <description><![CDATA[纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf/iperf3服务， 再用客户端iper]]></description>
-</item><item>
-    <title>折腾Hugo静态网站</title>
-    <link>http://wtpersonal.xyz/hugo_loveit/</link>
-    <pubDate>Wed, 01 Jul 2020 12:53:26 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/hugo_loveit/</guid>
-    <description><![CDATA[背景 很早之前就听说过Github推出了一个叫Git Page的产品 &hellip; 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的wi]]></description>
 </item></channel>
 </rss>

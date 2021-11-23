@@ -8,10 +8,10 @@
         <title>折腾Hugo静态网站 - WTPersonal</title><meta name="Description" content="我的hugo_loveit主题"><meta property="og:title" content="折腾Hugo静态网站" />
 <meta property="og:description" content="背景 很早之前就听说过Github推出了一个叫Git Page的产品 &hellip; 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的wi" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://wtpersonal.xyz/hugo_loveit/" />
-<meta property="og:image" content="http://wtpersonal.xyz/logo.png"/>
+<meta property="og:url" content="http://wtpersonal.xyz/hugo_loveit/" /><meta property="og:image" content="http://wtpersonal.xyz/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-07-01T12:53:26+08:00" />
 <meta property="article:modified_time" content="2020-07-19T15:02:21+08:00" />
+
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://wtpersonal.xyz/logo.png"/>
 
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/wtpersonal.xyz\/hugo_loveit\/"
-        },"genre": "posts","keywords": "归档, Hugo, LoveIt","wordcount":  945 ,
+        },"genre": "posts","keywords": "Hugo, 归档, LoveIt","wordcount":  945 ,
         "url": "http:\/\/wtpersonal.xyz\/hugo_loveit\/","datePublished": "2020-07-01T12:53:26+08:00","dateModified": "2020-07-19T15:02:21+08:00","publisher": {
             "@type": "Organization",
             "name": "WuTao","logo": "http:\/\/wtpersonal.xyz\/images\/avataaar.png"},"author": {
@@ -82,7 +82,7 @@
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">折腾Hugo静态网站</h1><h2 class="single-subtitle">--LoveIt 主题</h2><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>WuTao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%BD%92%E6%A1%A3/"><i class="far fa-folder fa-fw"></i>归档</a></span></div>
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>WuTao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/hugo/"><i class="far fa-folder fa-fw"></i>Hugo</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-07-01">2020-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 945 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -125,38 +125,38 @@
 也可以像我我一样用go get，同时他也会下载依赖(请做好代理):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git clone github.com/gohugoio/hugo
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git clone github.com/gohugoio/hugo
 </code></pre></td></tr></table>
 </div>
 </div><p>再进入Go源码文件夹下hugo的文件夹:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> hugo
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> hugo
 </code></pre></td></tr></table>
 </div>
 </div><p>这里会使用Sass/SCSS，所以在用Go安装的时候会用extended的tag。</p>
 <p>安装(请做好代理):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">CGO_ENABLED</span><span class="o">=</span><span class="m">1</span> go install --tags extended
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">CGO_ENABLED</span><span class="o">=</span><span class="m">1</span> go install --tags extended
 </code></pre></td></tr></table>
 </div>
 </div><p>最后查看hugo是否成功安装(如果是全局代理的, 现在可以取消了):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hugo version
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">hugo version
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="使用hugo">使用Hugo</h2>
@@ -165,31 +165,31 @@
 利用<strong>hugo new</strong>会创建一个新的文件夹并且会在文件夹下生成一个新的网站结构:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hugo new side my_website
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">hugo new side my_website
 <span class="nb">cd</span> my_website
 </code></pre></td></tr></table>
 </div>
 </div><p>并初始化为git仓库，可以使用**git add .<strong>和</strong>git commit -m &ldquo;comment&rdquo;**提交第一次记录:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git init
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git init
 </code></pre></td></tr></table>
 </div>
 </div><p>因为网站的主题是<a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer">LoveIt</a>,
 所以需要克隆LoveIt的主题到<strong>themes</strong>目录:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="hugo--loveit-配置">Hugo &amp; LoveIt 配置</h3>
@@ -202,10 +202,10 @@
 <p>利用hugo生成不同语言的文章<strong>first_post.language.md</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hugo new posts/first_post.zh-cn.md
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">hugo new posts/first_post.zh-cn.md
 </code></pre></td></tr></table>
 </div>
 </div><p>之后就可以直接编辑<strong>content/posts/first_post.zh-cn.md</strong>文件</p>
@@ -213,10 +213,10 @@
 <p>本地启动网站:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hugo server --buildDrafts --bind<span class="o">=</span>0.0.0.0
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">hugo server --buildDrafts --bind<span class="o">=</span>0.0.0.0
 </code></pre></td></tr></table>
 </div>
 </div><p>-D/&ndash;buildDrafts 用来渲染文件;</p>
@@ -226,10 +226,10 @@
 需要生成能够部署在github page上的文件(需要修改文章中draft: false):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hugo
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">hugo
 </code></pre></td></tr></table>
 </div>
 </div><p>会生成public的文件夹。</p>
@@ -247,13 +247,13 @@
                             <a class="link-to-markdown" href="/hugo_loveit/index.md" target="_blank">阅读原始文档</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://wtpersonal.xyz/hugo_loveit/" data-title="折腾Hugo静态网站" data-hashtags="归档,Hugo,LoveIt"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://wtpersonal.xyz/hugo_loveit/" data-hashtag="归档"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://wtpersonal.xyz/hugo_loveit/" data-title="折腾Hugo静态网站"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://wtpersonal.xyz/hugo_loveit/" data-title="折腾Hugo静态网站"><i class="fab fa-weibo fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://wtpersonal.xyz/hugo_loveit/" data-title="折腾Hugo静态网站" data-hashtags="Hugo,归档,LoveIt"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://wtpersonal.xyz/hugo_loveit/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://wtpersonal.xyz/hugo_loveit/" data-title="折腾Hugo静态网站"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://wtpersonal.xyz/hugo_loveit/" data-title="折腾Hugo静态网站"><i class="fab fa-weibo fa-fw"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E5%BD%92%E6%A1%A3/">归档</a>,&nbsp;<a href="/tags/hugo/">Hugo</a>,&nbsp;<a href="/tags/loveit/">LoveIt</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">Hugo</a>,&nbsp;<a href="/tags/%E5%BD%92%E6%A1%A3/">归档</a>,&nbsp;<a href="/tags/loveit/">LoveIt</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>

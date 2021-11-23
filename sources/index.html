@@ -8,10 +8,10 @@
         <title>Proxmox 换源 - WTPersonal</title><meta name="Description" content="我的hugo_loveit主题"><meta property="og:title" content="Proxmox 换源" />
 <meta property="og:description" content="由于国内连接国外官方源速度不开，所以需要更换软件源。 而且Proxmox官方源需要订阅，但是家庭使用只要免费的社区源， 也需要更换Proxmox" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://wtpersonal.xyz/sources/" />
-<meta property="og:image" content="http://wtpersonal.xyz/logo.png"/>
+<meta property="og:url" content="http://wtpersonal.xyz/sources/" /><meta property="og:image" content="http://wtpersonal.xyz/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-07-19T16:52:21+08:00" />
 <meta property="article:modified_time" content="2020-10-27T23:00:20+08:00" />
+
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://wtpersonal.xyz/logo.png"/>
 
@@ -106,7 +106,7 @@
 注释掉所有 <strong>/etc/apt/sources.list</strong> 文件的内容，并添加(需要root权限):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -116,7 +116,7 @@
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">deb http://mirrors.aliyun.com/debian/ buster main non-free contrib
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">deb http://mirrors.aliyun.com/debian/ buster main non-free contrib
 deb-src http://mirrors.aliyun.com/debian/ buster main non-free contrib
 deb http://mirrors.aliyun.com/debian-security buster/updates main
 deb-src http://mirrors.aliyun.com/debian-security buster/updates main
@@ -130,28 +130,28 @@ deb-src http://mirrors.aliyun.com/debian/ buster-backports main non-free contrib
 <p>首先，删除Proxmox企业源：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">rm -rf /etc/apt/sources.list.d/pve-enterprise.list
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">rm -rf /etc/apt/sources.list.d/pve-enterprise.list
 </code></pre></td></tr></table>
 </div>
 </div><p>下载密钥:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">wget http://download.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-ve-release-6.x.gpg
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">wget http://download.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-ve-release-6.x.gpg
 </code></pre></td></tr></table>
 </div>
 </div><p>添加中科大源:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">&#34;deb https://mirrors.ustc.edu.cn/proxmox/debian/pve buster pve-no-subscription&#34;</span> &gt; /etc/apt/sources.list.d/pve-no-subscription.list
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">&#34;deb https://mirrors.ustc.edu.cn/proxmox/debian/pve buster pve-no-subscription&#34;</span> &gt; /etc/apt/sources.list.d/pve-no-subscription.list
 </code></pre></td></tr></table>
 </div>
 </div><p>完成！</p>

@@ -4,7 +4,28 @@
         <link>http://wtpersonal.xyz/en/posts/</link>
         <description>All Posts | WTPersonal</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
-            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Sun, 15 Nov 2020 17:01:50 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/en/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Wed, 10 Nov 2021 05:54:27 &#43;0000</lastBuildDate><atom:link href="http://wtpersonal.xyz/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Collection</title>
+    <link>http://wtpersonal.xyz/en/collection/</link>
+    <pubDate>Wed, 10 Nov 2021 05:54:27 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://wtpersonal.xyz/en/collection/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Knowledge Bubble</title>
+    <link>http://wtpersonal.xyz/en/bubble/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://wtpersonal.xyz/en/bubble/</guid>
+    <description><![CDATA[Background Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system. It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet. Therefore, The place where people can acquire knowledge is transferred from library to the internet. That further leads to a massive increase in depth and breadth of knowledge that people have acquired.]]></description>
+</item><item>
+    <title>Golang</title>
+    <link>http://wtpersonal.xyz/en/golang/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:04 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://wtpersonal.xyz/en/golang/</guid>
+    <description><![CDATA[Programming Format text string in console display (X)  Looking for the solution. The &lsquo;\t&rsquo; did not work, especially, cannot align upper and lower text Consider to try &lsquo;imgui&rsquo;  Network ]]></description>
+</item><item>
     <title>Proxmox Commands</title>
     <link>http://wtpersonal.xyz/en/command/</link>
     <pubDate>Sun, 15 Nov 2020 17:01:50 &#43;0800</pubDate>

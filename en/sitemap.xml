@@ -2,8 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://wtpersonal.xyz/en/tags/archives/</loc><lastmod>2020-11-15T17:01:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://wtpersonal.xyz/en/categories/</loc><lastmod>2020-11-15T17:01:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://wtpersonal.xyz/en/categories/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://wtpersonal.xyz/categories/"
@@ -12,7 +11,19 @@
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/categories/"
                     /></url><url>
-            <loc>http://wtpersonal.xyz/en/posts/</loc><lastmod>2020-11-15T17:01:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://wtpersonal.xyz/en/tags/collection/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://wtpersonal.xyz/en/collection/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/collection/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/collection/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/knowledge-bubble/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://wtpersonal.xyz/en/categories/knowledge-bubble/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://wtpersonal.xyz/en/posts/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://wtpersonal.xyz/posts/"
@@ -21,6 +32,52 @@
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/posts/"
                     /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/tags/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/bubble/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/bubble/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/bubble/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/golang/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/tags/golang/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/tags/golang/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/golang/</loc><lastmod>2021-11-11T13:15:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://wtpersonal.xyz/golang/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://wtpersonal.xyz/en/golang/"
+                    /></url><url>
+            <loc>http://wtpersonal.xyz/en/tags/archives/</loc><lastmod>2020-11-15T17:01:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://wtpersonal.xyz/en/tags/proxmox/</loc><lastmod>2020-11-15T17:01:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -57,24 +114,6 @@
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/tags/pve/"
                     /></url><url>
-            <loc>http://wtpersonal.xyz/en/tags/</loc><lastmod>2021-11-01T22:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://wtpersonal.xyz/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://wtpersonal.xyz/en/tags/"
-                    /></url><url>
-            <loc>http://wtpersonal.xyz/en/</loc><lastmod>2021-11-01T22:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://wtpersonal.xyz/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://wtpersonal.xyz/en/"
-                    /></url><url>
             <loc>http://wtpersonal.xyz/en/categories/archives/</loc><lastmod>2020-10-29T13:10:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://wtpersonal.xyz/en/tags/command/</loc><lastmod>2020-10-29T13:10:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://wtpersonal.xyz/en/tags/linux/</loc><lastmod>2020-10-29T13:10:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
@@ -104,7 +143,7 @@
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/sources/"
                     /></url><url>
-            <loc>http://wtpersonal.xyz/en/about/</loc><lastmod>2021-11-01T22:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://wtpersonal.xyz/en/about/</loc><lastmod>2021-11-01T22:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://wtpersonal.xyz/about/"
@@ -113,4 +152,4 @@
                     hreflang="en"
                     href="http://wtpersonal.xyz/en/about/"
                     /></url><url>
-            <loc>http://wtpersonal.xyz/en/tags/about/</loc><lastmod>2021-11-01T22:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+            <loc>http://wtpersonal.xyz/en/tags/about/</loc><lastmod>2021-11-01T22:18:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url></urlset>
