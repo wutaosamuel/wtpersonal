@@ -1,15 +1,24 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Linux - 标签 - WTPersonal</title>
-        <link>http://wtpersonal.xyz/tags/linux/</link>
-        <description>Linux - 标签 - WTPersonal</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
-            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/tags/linux/" rel="self" type="application/rss+xml" /><item>
-    <title>类unix系统命令</title>
-    <link>http://wtpersonal.xyz/command/</link>
-    <pubDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/command/</guid>
-    <description><![CDATA[纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf/iperf3服务， 再用客户端iper]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on WTPersonal</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in Linux on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 23:00:20 +0800</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unix-like System Commands</title>
+      <link>/posts/command/</link>
+      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
+      
+      <guid>/posts/command/</guid>
+      <description>Record infrequently used but potential useful commands
+Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 </description>
+    </item>
+    
+  </channel>
 </rss>

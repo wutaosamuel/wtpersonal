@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memo on WTPersonal</title>
+    <link>/categories/memo/</link>
+    <description>Recent content in Memo on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 10 Nov 2021 05:54:27 +0000</lastBuildDate><atom:link href="/categories/memo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection</title>
+      <link>/posts/memo/collection/</link>
+      <pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate>
+      
+      <guid>/posts/memo/collection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memo</title>
+      <link>/posts/memo/memo/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:46 +0800</pubDate>
+      
+      <guid>/posts/memo/memo/</guid>
+      <description>&amp;mdash;&amp;mdash; Introduction Background Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system. It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet. Therefore, The place where people can acquire knowledge is transferred from library to the internet. That further leads to a massive increase in depth and breadth of knowledge that people have acquired. On the internet, we can find a lot of blogs, articles and notes.</description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>/posts/memo/golang/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
+      
+      <guid>/posts/memo/golang/</guid>
+      <description>Programming Format text string in console display (X)  Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text Consider to try &amp;lsquo;imgui&amp;rsquo;  Network </description>
+    </item>
+    
+  </channel>
+</rss>

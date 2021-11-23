@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>More on WTPersonal</title>
+    <link>/categories/more/</link>
+    <description>Recent content in More on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 23:00:20 +0800</lastBuildDate><atom:link href="/categories/more/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unix-like System Commands</title>
+      <link>/posts/command/</link>
+      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
+      
+      <guid>/posts/command/</guid>
+      <description>Record infrequently used but potential useful commands
+Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 </description>
+    </item>
+    
+  </channel>
+</rss>

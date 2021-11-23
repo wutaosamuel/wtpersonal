@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on WTPersonal</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 10 Nov 2021 05:54:27 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memo</title>
+      <link>/tags/memo/</link>
+      <pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate>
+      
+      <guid>/tags/memo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>/tags/golang/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
+      
+      <guid>/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proxmox</title>
+      <link>/tags/proxmox/</link>
+      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
+      
+      <guid>/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PVE</title>
+      <link>/tags/pve/</link>
+      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
+      
+      <guid>/tags/pve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command</title>
+      <link>/tags/command/</link>
+      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
+      
+      <guid>/tags/command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>More</title>
+      <link>/tags/more/</link>
+      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
+      
+      <guid>/tags/more/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

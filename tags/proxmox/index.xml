@@ -1,22 +1,31 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Proxmox - 标签 - WTPersonal</title>
-        <link>http://wtpersonal.xyz/tags/proxmox/</link>
-        <description>Proxmox - 标签 - WTPersonal</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
-            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Sun, 15 Nov 2020 16:41:50 &#43;0800</lastBuildDate><atom:link href="http://wtpersonal.xyz/tags/proxmox/" rel="self" type="application/rss+xml" /><item>
-    <title>Proxmox 命令</title>
-    <link>http://wtpersonal.xyz/command/</link>
-    <pubDate>Sun, 15 Nov 2020 16:41:50 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/command/</guid>
-    <description><![CDATA[记录使用过的Proxmox VE命令。 目录 import disk img Import disk img 将.img的镜像转换为虚拟机(VM)的磁盘。 这里的例子是转换openWRT镜像到虚拟机的]]></description>
-</item><item>
-    <title>Proxmox 换源</title>
-    <link>http://wtpersonal.xyz/sources/</link>
-    <pubDate>Sun, 19 Jul 2020 16:52:21 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/sources/</guid>
-    <description><![CDATA[由于国内连接国外官方源速度不开，所以需要更换软件源。 而且Proxmox官方源需要订阅，但是家庭使用只要免费的社区源， 也需要更换Proxmox]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proxmox on WTPersonal</title>
+    <link>/tags/proxmox/</link>
+    <description>Recent content in Proxmox on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Sun, 15 Nov 2020 17:01:50 +0800</lastBuildDate><atom:link href="/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxmox Commands</title>
+      <link>/posts/proxmox/command/</link>
+      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
+      
+      <guid>/posts/proxmox/command/</guid>
+      <description>Record usd Proxmox VE commands. 目录 import disk img Import disk img Transfer .img disc image file to Virtual Machine(vm) disk. The example is to transfer openWRT image file to VM disk. qm importdisk [VM id] [image path] [storage id] Example: qm importdisk 100 ./openwrt.img local-lvm</description>
+    </item>
+    
+    <item>
+      <title>Proxmox changes Sources</title>
+      <link>/posts/proxmox/sources/</link>
+      <pubDate>Sun, 19 Jul 2020 16:52:26 +0800</pubDate>
+      
+      <guid>/posts/proxmox/sources/</guid>
+      <description>The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source</description>
+    </item>
+    
+  </channel>
 </rss>

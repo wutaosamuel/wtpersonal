@@ -1,45 +1,89 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>WTPersonal</title>
-        <link>http://wtpersonal.xyz/</link>
-        <description>我的hugo_loveit主题</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wutaosamuel@gmail.com (WuTao)</managingEditor>
-            <webMaster>wutaosamuel@gmail.com (WuTao)</webMaster><lastBuildDate>Wed, 10 Nov 2021 05:54:43 &#43;0000</lastBuildDate>
-            <atom:link href="http://wtpersonal.xyz/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>收录</title>
-    <link>http://wtpersonal.xyz/collection/</link>
-    <pubDate>Wed, 10 Nov 2021 05:54:43 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/collection/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>随笔</title>
-    <link>http://wtpersonal.xyz/bubble/</link>
-    <pubDate>Wed, 03 Nov 2021 17:07:39 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/bubble/</guid>
-    <description><![CDATA[背景 现在, 网络的铺设已经从地面供应延伸到了近地轨道卫星, 网络的覆盖面获得了极大的提升. 它超越了空间上的限制, 每个人都可以把自己的感受, 知识,]]></description>
-</item><item>
-    <title>Golang</title>
-    <link>http://wtpersonal.xyz/golang/</link>
-    <pubDate>Wed, 03 Nov 2021 17:07:13 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/golang/</guid>
-    <description><![CDATA[编程 命令行中格式化显示文字 (X) 还在寻找方法. &lsquo;\t&rsquo; 并不能很好的对齐. 考虑尝试 &lsquo;imgui&rsquo; abc 1.1 网络]]></description>
-</item><item>
-    <title>Proxmox 命令</title>
-    <link>http://wtpersonal.xyz/command/</link>
-    <pubDate>Sun, 15 Nov 2020 16:41:50 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/command/</guid>
-    <description><![CDATA[记录使用过的Proxmox VE命令。 目录 import disk img Import disk img 将.img的镜像转换为虚拟机(VM)的磁盘。 这里的例子是转换openWRT镜像到虚拟机的]]></description>
-</item><item>
-    <title>类unix系统命令</title>
-    <link>http://wtpersonal.xyz/command/</link>
-    <pubDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>http://wtpersonal.xyz/command/</guid>
-    <description><![CDATA[纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf/iperf3服务， 再用客户端iper]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WTPersonal</title>
+    <link>/</link>
+    <description>Recent content on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 10 Nov 2021 05:54:27 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection</title>
+      <link>/posts/memo/collection/</link>
+      <pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate>
+      
+      <guid>/posts/memo/collection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memo</title>
+      <link>/posts/memo/memo/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:46 +0800</pubDate>
+      
+      <guid>/posts/memo/memo/</guid>
+      <description>&amp;mdash;&amp;mdash; Introduction Background Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system. It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet. Therefore, The place where people can acquire knowledge is transferred from library to the internet. That further leads to a massive increase in depth and breadth of knowledge that people have acquired. On the internet, we can find a lot of blogs, articles and notes.</description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>/posts/memo/golang/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
+      
+      <guid>/posts/memo/golang/</guid>
+      <description>Programming Format text string in console display (X)  Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text Consider to try &amp;lsquo;imgui&amp;rsquo;  Network </description>
+    </item>
+    
+    <item>
+      <title>Proxmox Commands</title>
+      <link>/posts/proxmox/command/</link>
+      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
+      
+      <guid>/posts/proxmox/command/</guid>
+      <description>Record usd Proxmox VE commands. 目录 import disk img Import disk img Transfer .img disc image file to Virtual Machine(vm) disk. The example is to transfer openWRT image file to VM disk. qm importdisk [VM id] [image path] [storage id] Example: qm importdisk 100 ./openwrt.img local-lvm</description>
+    </item>
+    
+    <item>
+      <title>Unix-like System Commands</title>
+      <link>/posts/command/</link>
+      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
+      
+      <guid>/posts/command/</guid>
+      <description>Record infrequently used but potential useful commands
+Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 </description>
+    </item>
+    
+    <item>
+      <title>Proxmox changes Sources</title>
+      <link>/posts/proxmox/sources/</link>
+      <pubDate>Sun, 19 Jul 2020 16:52:26 +0800</pubDate>
+      
+      <guid>/posts/proxmox/sources/</guid>
+      <description>The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 03 Jul 2020 16:28:09 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>About Me about me
+Big fan of open source; love to play novelty; jack of all trades, master of none; Work and Life balance; one of silent majority.
+06/2018 finished my course of Bachelor&amp;rsquo;s degree, 11/2019 finished my course of Master&amp;rsquo;s degree. In the college, I have learnt a lot of knowledge about electronic, electric and computer. Travelling and play novelty at accommodation during the whole my study life in terms of my character. But now, I&amp;rsquo;m seeking the direction and purpose for my life</description>
+    </item>
+    
+    <item>
+      <title>Archives</title>
+      <link>/archives/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/archives/archives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
