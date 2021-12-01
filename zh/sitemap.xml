@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/zh/categories/</loc>
-    <lastmod>2021-11-11T13:15:46+08:00</lastmod>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="/zh/categories/"
                 />
   </url><url>
+    <loc>/zh/posts/homeassistant.zh-cn/</loc>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
+  </url><url>
     <loc>/zh/posts/</loc>
-    <lastmod>2021-11-11T13:15:46+08:00</lastmod>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +32,7 @@
                 />
   </url><url>
     <loc>/zh/tags/</loc>
-    <lastmod>2021-11-11T13:15:46+08:00</lastmod>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +45,7 @@
                 />
   </url><url>
     <loc>/zh/</loc>
-    <lastmod>2021-11-11T13:15:46+08:00</lastmod>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,6 +56,15 @@
                 hreflang="zh"
                 href="/zh/"
                 />
+  </url><url>
+    <loc>/zh/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</loc>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
+  </url><url>
+    <loc>/zh/tags/%E6%9B%B4%E5%A4%9A/</loc>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
+  </url><url>
+    <loc>/zh/categories/%E6%9B%B4%E5%A4%9A/</loc>
+    <lastmod>2021-11-30T16:10:30+08:00</lastmod>
   </url><url>
     <loc>/zh/tags/%E5%A4%87%E5%BF%98/</loc>
     <lastmod>2021-11-11T13:15:46+08:00</lastmod>
@@ -83,7 +95,7 @@
     <lastmod>2021-11-11T13:15:46+08:00</lastmod>
   </url><url>
     <loc>/zh/tags/proxmox/</loc>
-    <lastmod>2020-11-15T16:41:50+08:00</lastmod>
+    <lastmod>2020-12-01T16:41:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -96,7 +108,7 @@
                 />
   </url><url>
     <loc>/zh/categories/proxmox/</loc>
-    <lastmod>2020-11-15T16:41:50+08:00</lastmod>
+    <lastmod>2020-12-01T16:41:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -109,10 +121,10 @@
                 />
   </url><url>
     <loc>/zh/posts/proxmox/command.zh-cn/</loc>
-    <lastmod>2020-11-15T16:41:50+08:00</lastmod>
+    <lastmod>2020-12-01T16:41:50+08:00</lastmod>
   </url><url>
     <loc>/zh/tags/pve/</loc>
-    <lastmod>2020-11-15T16:41:50+08:00</lastmod>
+    <lastmod>2020-12-01T16:41:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -123,6 +135,9 @@
                 hreflang="zh"
                 href="/zh/tags/pve/"
                 />
+  </url><url>
+    <loc>/zh/tags/%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2020-12-01T16:41:50+08:00</lastmod>
   </url><url>
     <loc>/zh/tags/linux/</loc>
     <lastmod>2020-10-29T13:10:20+08:00</lastmod>
@@ -136,15 +151,6 @@
                 hreflang="zh"
                 href="/zh/tags/linux/"
                 />
-  </url><url>
-    <loc>/zh/tags/%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2020-10-29T13:10:20+08:00</lastmod>
-  </url><url>
-    <loc>/zh/tags/%E6%9B%B4%E5%A4%9A/</loc>
-    <lastmod>2020-10-29T13:10:20+08:00</lastmod>
-  </url><url>
-    <loc>/zh/categories/%E6%9B%B4%E5%A4%9A/</loc>
-    <lastmod>2020-10-29T13:10:20+08:00</lastmod>
   </url><url>
     <loc>/zh/posts/command.zh-cn/</loc>
     <lastmod>2020-10-29T13:10:20+08:00</lastmod>

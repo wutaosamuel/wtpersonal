@@ -8,7 +8,16 @@
     <language>zh</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 10 Nov 2021 05:54:43 +0000</lastBuildDate><atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 16:10:30 +0800</lastBuildDate><atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homeassitant 部署</title>
+      <link>/zh/posts/homeassistant.zh-cn/</link>
+      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
+      
+      <guid>/zh/posts/homeassistant.zh-cn/</guid>
+      <description>Homeassitant docker 安装 docker-compose.yml version: &amp;quot;3&amp;quot; services: homeassitant: container_name: homeassistant image: homeassistant/home-assistant restart: unless-stopped network_mode: host privileged: true # environment: # - https_proxy=http://172.16.8.168:8123 volumes: - /root/homeassistant/config:/config - /etc/localtime:/etc/localtime:ro 创建并运行 docker docker-compose up -d HACS 安装 (Integrations of the community store/社区插件) 如果 hacs 没有安装, 可以手动安装 # 进入do</description>
+    </item>
+    
     <item>
       <title>收录</title>
       <link>/zh/posts/memo/collection.zh-cn/</link>
@@ -42,7 +51,7 @@
       <pubDate>Sun, 15 Nov 2020 16:41:50 +0800</pubDate>
       
       <guid>/zh/posts/proxmox/command.zh-cn/</guid>
-      <description>记录使用过的Proxmox VE命令。 目录 import disk img Import disk img 将.img的镜像转换为虚拟机(VM)的磁盘。 这里的例子是转换openWRT镜像到虚拟机的磁盘。 qm importdisk</description>
+      <description>记录使用过的 Proxmox VE 命令。 目录 转换 img 磁盘 添加/重新扫描未显示的磁盘映像 直通 sata 盘 删除 PVE 集群节点 重新安装 ceph 转换 img 磁盘 将.img 的镜像转换为虚拟机(VM)的磁盘</description>
     </item>
     
     <item>
@@ -51,7 +60,7 @@
       <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
       
       <guid>/zh/posts/command.zh-cn/</guid>
-      <description>纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf/iperf3服务， 再用客户端iperf/ipe</description>
+      <description>纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 qemu - 转换磁盘映像 iperf3 测试设备间网络速度。 先开启服务端 iperf/iperf3 服务， 再用客户端 iperf/iperf3 测速。 windows 下为 iperf3.exe 应用。 服</description>
     </item>
     
     <item>

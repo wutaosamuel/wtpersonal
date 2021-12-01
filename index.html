@@ -492,7 +492,10 @@
 </div>
 <div class="content">
   
-    Record usd Proxmox VE commands. 目录 import disk img Import disk img Transfer .img disc image file to Virtual Machine(vm) disk. The example is to transfer openWRT image file to VM disk. qm importdisk [VM id] [image path] [storage id] Example: qm importdisk 100 ./openwrt.img local-lvm
+    Record usd Proxmox VE commands.
+Contents  Import disk img Add/Rescan undisplayed disk Passthrough sata drivers Delete PVE cluster Reinstall ceph  Import disk img Transfer .img disc image file to Virtual Machine(vm) disk.
+ The example is to transfer openWRT image file to VM disk.  qm importdisk [VM id] [image path] [storage id] Example:
+qm importdisk 100 ./openwrt.img local-lvm Rescan undisplayed disk It would be rescan all disk which belongs to a specific virtual machine.
   
 </div>
 
@@ -503,7 +506,7 @@
     </div>
     <div class="mr-6 my-2">
         <i class="fas fa-clock mr-1"></i>
-        <span>1 min read</span>
+        <span>2 min read</span>
     </div>
     
     
@@ -534,8 +537,8 @@
 <div class="content">
   
     Record infrequently used but potential useful commands
-Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
-Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 
+Contents  iperf3 - Network speed test qemu - convert images  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 Qemu convert images qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0.
   
 </div>
 

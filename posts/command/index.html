@@ -59,8 +59,8 @@
 
 <meta name="description"
   content="Record infrequently used but potential useful commands
-Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
-Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 ">
+Contents  iperf3 - Network speed test qemu - convert images  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 Qemu convert images qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -89,7 +89,7 @@ Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 servi
     },
     "headline": "Unix-like System Commands - WTPersonal","datePublished": "2020-10-27T23:00:20+08:00",
     "dateModified": "2020-10-29T13:10:20+08:00",
-    "wordCount":  56 ,
+    "wordCount":  87 ,
     "publisher": {
         "@type": "Person",
         "name": "T. Wu",
@@ -98,7 +98,7 @@ Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 servi
             "url": "/images/icon.png"
         }
         },
-    "description": "Record infrequently used but potential useful commands\nContents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf\/iperf3 service, then, test it by client-side iperf\/iperf3 application. Under windows system, the application is iperf3.exe.\nOpen server-side iperf3 service iperf3 -s -p 5201\r Open client-side iperf3 service iperf3 -c [ip address] -p 5201\r "
+    "description": "Record infrequently used but potential useful commands\nContents  iperf3 - Network speed test qemu - convert images  iperf3 Test network speed between devices. First, open server-side iperf\/iperf3 service, then, test it by client-side iperf\/iperf3 application. Under windows system, the application is iperf3.exe.\nOpen server-side iperf3 service iperf3 -s -p 5201\r Open client-side iperf3 service iperf3 -c [ip address] -p 5201\r Qemu convert images qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0."
 }
 </script><meta property="og:title" content="Unix-like System Commands - WTPersonal" />
 <meta property="og:type" content="article" />
@@ -113,8 +113,8 @@ Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 servi
 
 
 <meta property="og:description" content="Record infrequently used but potential useful commands
-Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
-Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 " />
+Contents  iperf3 - Network speed test qemu - convert images  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 Qemu convert images qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0." />
 
 
 
@@ -260,6 +260,7 @@ Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 servi
 <h2 id="contents">Contents</h2>
 <ol>
 <li><a href="#iperf3">iperf3 - Network speed test</a></li>
+<li><a href="#qemu-convert-images">qemu - convert images</a></li>
 </ol>
 <h2 id="iperf3">iperf3</h2>
 <p>Test network speed between devices.
@@ -271,6 +272,13 @@ Under windows system, the application is iperf3.exe.</p>
 </code></pre>
 <h3 id="open-client-side-iperf3-service">Open client-side iperf3 service</h3>
 <pre><code class="language-bash">iperf3 -c [ip address] -p 5201
+</code></pre>
+<h2 id="qemu-convert-images">Qemu convert images</h2>
+<pre><code class="language-bash">qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0.raw
+</code></pre>
+<p>Example:</p>
+<pre><code class="language-bash"># convert qcow2 to raw image
+qemu-img convert -f qcow2 -O raw vm-114-disk-0.qcow2 vm-114-disk-0.raw
 </code></pre>
 
         </div>

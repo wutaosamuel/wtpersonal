@@ -42,7 +42,10 @@
       <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
       
       <guid>/posts/proxmox/command/</guid>
-      <description>Record usd Proxmox VE commands. 目录 import disk img Import disk img Transfer .img disc image file to Virtual Machine(vm) disk. The example is to transfer openWRT image file to VM disk. qm importdisk [VM id] [image path] [storage id] Example: qm importdisk 100 ./openwrt.img local-lvm</description>
+      <description>Record usd Proxmox VE commands.
+Contents  Import disk img Add/Rescan undisplayed disk Passthrough sata drivers Delete PVE cluster Reinstall ceph  Import disk img Transfer .img disc image file to Virtual Machine(vm) disk.
+ The example is to transfer openWRT image file to VM disk.  qm importdisk [VM id] [image path] [storage id] Example:
+qm importdisk 100 ./openwrt.img local-lvm Rescan undisplayed disk It would be rescan all disk which belongs to a specific virtual machine.</description>
     </item>
     
     <item>
@@ -52,8 +55,8 @@
       
       <guid>/posts/command/</guid>
       <description>Record infrequently used but potential useful commands
-Contents  iperf3 - Network speed test  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
-Open server-side iperf3 service iperf3 -s -p 5201  Open client-side iperf3 service iperf3 -c [ip address] -p 5201  </description>
+Contents  iperf3 - Network speed test qemu - convert images  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
+Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 Qemu convert images qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0.</description>
     </item>
     
     <item>
@@ -62,7 +65,8 @@ Open server-side iperf3 service iperf3 -s -p 5201  Open client-side iperf3 servi
       <pubDate>Sun, 19 Jul 2020 16:52:26 +0800</pubDate>
       
       <guid>/posts/proxmox/sources/</guid>
-      <description>The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source</description>
+      <description>The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source。
+Debian Source The Proxmox is based on Debian, thus, we need to change debian sources.</description>
     </item>
     
     <item>

@@ -15,7 +15,7 @@
       <pubDate>Sun, 15 Nov 2020 16:41:50 +0800</pubDate>
       
       <guid>/zh/posts/proxmox/command.zh-cn/</guid>
-      <description>记录使用过的Proxmox VE命令。 目录 import disk img Import disk img 将.img的镜像转换为虚拟机(VM)的磁盘。 这里的例子是转换openWRT镜像到虚拟机的磁盘。 qm importdisk</description>
+      <description>记录使用过的 Proxmox VE 命令。 目录 转换 img 磁盘 添加/重新扫描未显示的磁盘映像 直通 sata 盘 删除 PVE 集群节点 重新安装 ceph 转换 img 磁盘 将.img 的镜像转换为虚拟机(VM)的磁盘</description>
     </item>
     
     <item>

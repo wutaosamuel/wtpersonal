@@ -86,13 +86,13 @@
             "@type":"ListItem",
             "position":  1 ,
             "name": "Proxmox Commands",
-            "description": "Record usd Proxmox VE commands. 目录 import disk img Import disk img Transfer .img disc image file to Virtual Machine(vm) disk. The example is to transfer openWRT image file to VM disk. qm importdisk [VM id] [image path] [storage id] Example: qm importdisk 100 ./openwrt.img local-lvm",
+            "description": "Record usd Proxmox VE commands.\nContents  Import disk img Add/Rescan undisplayed disk Passthrough sata drivers Delete PVE cluster Reinstall ceph  Import disk img Transfer .img disc image file to Virtual Machine(vm) disk.\n The example is to transfer openWRT image file to VM disk.  qm importdisk [VM id] [image path] [storage id]\r Example:\nqm importdisk 100 ./openwrt.img local-lvm\r Rescan undisplayed disk It would be rescan all disk which belongs to a specific virtual machine.",
             "url": "/posts/proxmox/command/"
         },{
             "@type":"ListItem",
             "position":  2 ,
             "name": "Proxmox changes Sources",
-            "description": "The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source",
+            "description": "The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source。\nDebian Source The Proxmox is based on Debian, thus, we need to change debian sources.",
             "url": "/posts/proxmox/sources/"
         }
     ]
@@ -242,7 +242,10 @@
 </div>
 <div class="content">
   
-    Record usd Proxmox VE commands. 目录 import disk img Import disk img Transfer .img disc image file to Virtual Machine(vm) disk. The example is to transfer openWRT image file to VM disk. qm importdisk [VM id] [image path] [storage id] Example: qm importdisk 100 ./openwrt.img local-lvm
+    Record usd Proxmox VE commands.
+Contents  Import disk img Add/Rescan undisplayed disk Passthrough sata drivers Delete PVE cluster Reinstall ceph  Import disk img Transfer .img disc image file to Virtual Machine(vm) disk.
+ The example is to transfer openWRT image file to VM disk.  qm importdisk [VM id] [image path] [storage id] Example:
+qm importdisk 100 ./openwrt.img local-lvm Rescan undisplayed disk It would be rescan all disk which belongs to a specific virtual machine.
   
 </div>
 
@@ -253,7 +256,7 @@
     </div>
     <div class="mr-6 my-2">
         <i class="fas fa-clock mr-1"></i>
-        <span>1 min read</span>
+        <span>2 min read</span>
     </div>
     
     
@@ -283,7 +286,8 @@
 </div>
 <div class="content">
   
-    The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source
+    The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source。
+Debian Source The Proxmox is based on Debian, thus, we need to change debian sources.
   
 </div>
 

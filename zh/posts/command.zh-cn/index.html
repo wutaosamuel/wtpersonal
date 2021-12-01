@@ -58,7 +58,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
 
 <meta name="description"
-  content="纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf/iperf3服务， 再用客户端iperf/ipe">
+  content="纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 qemu - 转换磁盘映像 iperf3 测试设备间网络速度。 先开启服务端 iperf/iperf3 服务， 再用客户端 iperf/iperf3 测速。 windows 下为 iperf3.exe 应用。 服">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -87,7 +87,7 @@
     },
     "headline": "类unix系统命令 - WTPersonal","datePublished": "2020-10-27T23:00:20+08:00",
     "dateModified": "2020-10-29T13:10:20+08:00",
-    "wordCount":  123 ,
+    "wordCount":  139 ,
     "publisher": {
         "@type": "Person",
         "name": "T. Wu",
@@ -96,7 +96,7 @@
             "url": "/images/icon.png"
         }
         },
-    "description": "纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf\/iperf3服务， 再用客户端iperf\/ipe"
+    "description": "纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 qemu - 转换磁盘映像 iperf3 测试设备间网络速度。 先开启服务端 iperf\/iperf3 服务， 再用客户端 iperf\/iperf3 测速。 windows 下为 iperf3.exe 应用。 服"
 }
 </script><meta property="og:title" content="类unix系统命令 - WTPersonal" />
 <meta property="og:type" content="article" />
@@ -110,7 +110,7 @@
 
 
 
-<meta property="og:description" content="纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 iperf3 测试设备间网络速度。 先开启服务端iperf/iperf3服务， 再用客户端iperf/ipe" />
+<meta property="og:description" content="纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 qemu - 转换磁盘映像 iperf3 测试设备间网络速度。 先开启服务端 iperf/iperf3 服务， 再用客户端 iperf/iperf3 测速。 windows 下为 iperf3.exe 应用。 服" />
 
 
 
@@ -256,17 +256,25 @@
 <h2 id="目录">目录</h2>
 <ol>
 <li><a href="#iperf3">iperf3 - 测试网络速度</a></li>
+<li><a href="#qemu-%E8%BD%AC%E6%8D%A2%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F">qemu - 转换磁盘映像</a></li>
 </ol>
 <h2 id="iperf3">iperf3</h2>
 <p>测试设备间网络速度。
-先开启服务端iperf/iperf3服务，
-再用客户端iperf/iperf3测速。
-windows下为iperf3.exe应用。</p>
+先开启服务端 iperf/iperf3 服务，
+再用客户端 iperf/iperf3 测速。
+windows 下为 iperf3.exe 应用。</p>
 <h3 id="服务端开启">服务端开启</h3>
 <pre><code class="language-bash">iperf3 -s -p 5201
 </code></pre>
 <h3 id="客户端开启">客户端开启</h3>
 <pre><code class="language-bash">iperf3 -c [ip address] -p 5201
+</code></pre>
+<h2 id="qemu-转换磁盘映像">Qemu 转换磁盘映像</h2>
+<pre><code class="language-bash">qemu-img convert -f [格式] -O [输出的格式] vm-114-disk-0.qcow2 vm-114-disk-0.raw
+</code></pre>
+<p>比如:</p>
+<pre><code class="language-bash"># 转换 qcow2 成 raw 磁盘映像
+qemu-img convert -f qcow2 -O raw vm-114-disk-0.qcow2 vm-114-disk-0.raw
 </code></pre>
 
         </div>
