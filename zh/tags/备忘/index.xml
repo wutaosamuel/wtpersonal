@@ -36,5 +36,14 @@
       <description>编程 命令行中格式化显示文字 (X) 还在寻找方法. &amp;lsquo;\t&amp;rsquo; 并不能很好的对齐. 考虑尝试 &amp;lsquo;imgui&amp;rsquo; abc 1.1 网络</description>
     </item>
     
+    <item>
+      <title>Angular</title>
+      <link>/zh/posts/memo/angular.zh-cn/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
+      
+      <guid>/zh/posts/memo/angular.zh-cn/</guid>
+      <description>Contents 组件中双向数据流动(@Input &amp;amp; @Output) 组件中双向数据流动 有时候, 数据无法传递. 丢弃 @Input value 和 @Output valueChange 无法准确检测 value 值已经改变. 在多次继承下尤其明显. 会尝试使用</description>
+    </item>
+    
   </channel>
 </rss>

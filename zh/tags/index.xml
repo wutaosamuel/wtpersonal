@@ -8,22 +8,40 @@
     <language>zh</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 24 Nov 2021 16:10:30 +0800</lastBuildDate><atom:link href="/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Dec 2021 14:23:20 +0800</lastBuildDate><atom:link href="/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>智能家居</title>
-      <link>/zh/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</link>
-      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
+      <title>Windows</title>
+      <link>/zh/tags/windows/</link>
+      <pubDate>Fri, 17 Dec 2021 14:23:20 +0800</pubDate>
       
-      <guid>/zh/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</guid>
+      <guid>/zh/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>命令</title>
+      <link>/zh/tags/%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 17 Dec 2021 14:23:20 +0800</pubDate>
+      
+      <guid>/zh/tags/%E5%91%BD%E4%BB%A4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>更多</title>
       <link>/zh/tags/%E6%9B%B4%E5%A4%9A/</link>
-      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
+      <pubDate>Fri, 17 Dec 2021 14:23:20 +0800</pubDate>
       
       <guid>/zh/tags/%E6%9B%B4%E5%A4%9A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>智能家居</title>
+      <link>/zh/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</link>
+      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
+      
+      <guid>/zh/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</guid>
       <description></description>
     </item>
     
@@ -46,6 +64,15 @@
     </item>
     
     <item>
+      <title>Angular</title>
+      <link>/zh/tags/angular/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
+      
+      <guid>/zh/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proxmox</title>
       <link>/zh/tags/proxmox/</link>
       <pubDate>Sun, 15 Nov 2020 16:41:50 +0800</pubDate>
@@ -60,15 +87,6 @@
       <pubDate>Sun, 15 Nov 2020 16:41:50 +0800</pubDate>
       
       <guid>/zh/tags/pve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>命令</title>
-      <link>/zh/tags/%E5%91%BD%E4%BB%A4/</link>
-      <pubDate>Sun, 15 Nov 2020 16:41:50 +0800</pubDate>
-      
-      <guid>/zh/tags/%E5%91%BD%E4%BB%A4/</guid>
       <description></description>
     </item>
     

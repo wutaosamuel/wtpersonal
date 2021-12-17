@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angular on WTPersonal</title>
+    <link>/tags/angular/</link>
+    <description>Recent content in Angular on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 03 Nov 2021 17:07:04 +0800</lastBuildDate><atom:link href="/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular</title>
+      <link>/posts/memo/angular/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
+      
+      <guid>/posts/memo/angular/</guid>
+      <description>Contents  Bidirectional data flow between components(@Input &amp;amp; @Output)  Bidirectional data flow between components Sometimes, not work very well. ABANDON  @Input value and @Output valueChange cannot detect value change when child component valueChange emit a value, especially, Multiple inheritance. next, try to use @ViewChild or @ViewChildren  Bidirectional data flow between parent component and child component. It uses @Input and @Output decorates the variables. The more Input and Output details are at official angular guide</description>
+    </item>
+    
+  </channel>
+</rss>

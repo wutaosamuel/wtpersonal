@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Device on WTPersonal</title>
+    <link>/tags/smart-device/</link>
+    <description>Recent content in Smart Device on WTPersonal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 24 Nov 2021 16:10:30 +0800</lastBuildDate><atom:link href="/tags/smart-device/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homeassitant</title>
+      <link>/posts/homeassitant/</link>
+      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
+      
+      <guid>/posts/homeassitant/</guid>
+      <description>Homeassitant installation by docker docker-compose.yml
+version: &amp;quot;3&amp;quot;services:homeassitant:container_name: homeassistantimage: homeassistant/home-assistantrestart: unless-stoppednetwork_mode: hostprivileged: true# environment:# - https_proxy=http://172.16.8.168:8123volumes:- /root/homeassistant/config:/config- /etc/localtime:/etc/localtime:ro Create and Run docker
+docker-compose up -d HACS installation (Integrations of the community store) If hacs not installed, manually install hacs
+# Go inside the containerdocker exec -it homeassistant bash# Run the hacs download scriptwget -O - https://get.hacs.xyz | bash -# Exit the containerexit Restart homeassistant docker or restart server in Server Controls in Configuration.</description>
+    </item>
+    
+  </channel>
+</rss>

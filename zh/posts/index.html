@@ -70,51 +70,51 @@
     "itemListElement":[{
             "@type":"ListItem",
             "position":  1 ,
+            "name": "Window 命令",
+            "description": "纪录一些可能有用的，不经常使用的windows命令。 Contents 定时关机 定时关机 shutdown -s -t [second] 比如: # 1个小时后关机 shutdown -s -t 3600 取消定时关机 shutdown -a",
+            "url": "/zh/posts/windowscmd.zh-cn/"
+        },{
+            "@type":"ListItem",
+            "position":  2 ,
             "name": "Homeassitant 部署",
             "description": "Homeassitant docker 安装 docker-compose.yml version: \u0026quot;3\u0026quot; services: homeassitant: container_name: homeassistant image: homeassistant/home-assistant restart: unless-stopped network_mode: host privileged: true # environment: # - https_proxy=http://172.16.8.168:8123 volumes: - /root/homeassistant/config:/config - /etc/localtime:/etc/localtime:ro 创建并运行 docker docker-compose up -d HACS 安装 (Integrations of the community store/社区插件) 如果 hacs 没有安装, 可以手动安装 # 进入do",
             "url": "/zh/posts/homeassistant.zh-cn/"
         },{
             "@type":"ListItem",
-            "position":  2 ,
+            "position":  3 ,
             "name": "收录",
             "description": ,
             "url": "/zh/posts/memo/collection.zh-cn/"
         },{
             "@type":"ListItem",
-            "position":  3 ,
+            "position":  4 ,
             "name": "备忘",
-            "description": "\u0026mdash;\u0026mdash; 介绍 背景 现在, 网络的铺设已经从地面供应延伸到了近地轨道卫星, 网络的覆盖面获得了极大的提升. 它超越了空间上的限制, 每个人都可以把自己的感受, 知识, 经验",
+            "description": "-- 介绍",
             "url": "/zh/posts/memo/memo.zh-cn/"
         },{
             "@type":"ListItem",
-            "position":  4 ,
+            "position":  5 ,
             "name": "Golang",
             "description": "编程 命令行中格式化显示文字 (X) 还在寻找方法. \u0026lsquo;\\t\u0026rsquo; 并不能很好的对齐. 考虑尝试 \u0026lsquo;imgui\u0026rsquo; abc 1.1 网络",
             "url": "/zh/posts/memo/golang.zh-cn/"
         },{
             "@type":"ListItem",
-            "position":  5 ,
+            "position":  6 ,
+            "name": "Angular",
+            "description": "Contents 组件中双向数据流动(@Input \u0026amp; @Output) 组件中双向数据流动 有时候, 数据无法传递. 丢弃 @Input value 和 @Output valueChange 无法准确检测 value 值已经改变. 在多次继承下尤其明显. 会尝试使用",
+            "url": "/zh/posts/memo/angular.zh-cn/"
+        },{
+            "@type":"ListItem",
+            "position":  7 ,
             "name": "Proxmox 命令",
             "description": "记录使用过的 Proxmox VE 命令。 目录 转换 img 磁盘 添加/重新扫描未显示的磁盘映像 直通 sata 盘 删除 PVE 集群节点 重新安装 ceph 转换 img 磁盘 将.img 的镜像转换为虚拟机(VM)的磁盘",
             "url": "/zh/posts/proxmox/command.zh-cn/"
         },{
             "@type":"ListItem",
-            "position":  6 ,
+            "position":  8 ,
             "name": "类unix系统命令",
             "description": "纪录一些可能有用的，不经常使用的命令。 目录 iperf3 - 测试网络速度 qemu - 转换磁盘映像 iperf3 测试设备间网络速度。 先开启服务端 iperf/iperf3 服务， 再用客户端 iperf/iperf3 测速。 windows 下为 iperf3.exe 应用。 服",
             "url": "/zh/posts/command.zh-cn/"
-        },{
-            "@type":"ListItem",
-            "position":  7 ,
-            "name": "Proxmox 换源",
-            "description": "由于国内连接国外官方源速度不开，所以需要更换软件源。 而且Proxmox官方源需要订阅，但是家庭使用只要免费的社区源， 也需要更换Proxmox的软件源。",
-            "url": "/zh/posts/proxmox/sources.zh-cn/"
-        },{
-            "@type":"ListItem",
-            "position":  8 ,
-            "name": "折腾Hugo静态网站",
-            "description": "背景 很早之前就听说过Github推出了一个叫Git Page的产品 \u0026hellip; 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的windows",
-            "url": "/zh/posts/hugo/hugo_loveit.zh-cn/"
         }
     ]
 }
@@ -151,7 +151,7 @@
 
 
 
-<meta property="og:updated_time" content="2021-11-24T16:10:30&#43;08:00" />
+<meta property="og:updated_time" content="2021-12-17T14:23:20&#43;08:00" />
 
 
 
@@ -259,6 +259,47 @@
   
   <div class="w-full ">
     <div class="mb-4">
+  <a href="/zh/posts/windowscmd.zh-cn/" class="font-bold text-xl hover:text-eureka">Window 命令</a>
+</div>
+<div class="content">
+  
+    纪录一些可能有用的，不经常使用的windows命令。 Contents 定时关机 定时关机 shutdown -s -t [second] 比如: # 1个小时后关机 shutdown -s -t 3600 取消定时关机 shutdown -a
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-12-17</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1分钟阅读时长</span>
+    </div>
+    
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="/zh/categories/%E6%9B%B4%E5%A4%9A/" class="hover:text-eureka">更多</a>
+        
+    </div>
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
   <a href="/zh/posts/homeassistant.zh-cn/" class="font-bold text-xl hover:text-eureka">Homeassitant 部署</a>
 </div>
 <div class="content">
@@ -343,7 +384,7 @@
 </div>
 <div class="content">
   
-    —— 介绍 背景 现在, 网络的铺设已经从地面供应延伸到了近地轨道卫星, 网络的覆盖面获得了极大的提升. 它超越了空间上的限制, 每个人都可以把自己的感受, 知识, 经验
+    -- 介绍
   
 </div>
 
@@ -385,6 +426,47 @@
 <div class="content">
   
     编程 命令行中格式化显示文字 (X) 还在寻找方法. ‘\t’ 并不能很好的对齐. 考虑尝试 ‘imgui’ abc 1.1 网络
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-11-03</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1分钟阅读时长</span>
+    </div>
+    
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="/zh/categories/%E5%A4%87%E5%BF%98/" class="hover:text-eureka">备忘</a>
+        
+    </div>
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/zh/posts/memo/angular.zh-cn/" class="font-bold text-xl hover:text-eureka">Angular</a>
+</div>
+<div class="content">
+  
+    Contents 组件中双向数据流动(@Input &amp; @Output) 组件中双向数据流动 有时候, 数据无法传递. 丢弃 @Input value 和 @Output valueChange 无法准确检测 value 值已经改变. 在多次继承下尤其明显. 会尝试使用
   
 </div>
 
@@ -498,93 +580,31 @@
 </div>
   </div>
   
-  <div class="py-6">
-    <div class="flex flex-col-reverse lg:flex-row justify-between">
-  
-  <div class="w-full ">
-    <div class="mb-4">
-  <a href="/zh/posts/proxmox/sources.zh-cn/" class="font-bold text-xl hover:text-eureka">Proxmox 换源</a>
-</div>
-<div class="content">
-  
-    由于国内连接国外官方源速度不开，所以需要更换软件源。 而且Proxmox官方源需要订阅，但是家庭使用只要免费的社区源， 也需要更换Proxmox的软件源。
-  
-</div>
-
-<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2020-07-19</span>
-    </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>1分钟阅读时长</span>
-    </div>
-    
-    
-    <div class="mr-6 my-2">
-        <i class="fas fa-folder mr-1"></i>
-        
-        <a href="/zh/categories/proxmox/" class="hover:text-eureka">Proxmox</a>
-        
-    </div>
-    
-
-    
-</div>
-
-  </div>
-
-  
-</div>
-  </div>
-  
-  <div class="py-6">
-    <div class="flex flex-col-reverse lg:flex-row justify-between">
-  
-  <div class="w-full ">
-    <div class="mb-4">
-  <a href="/zh/posts/hugo/hugo_loveit.zh-cn/" class="font-bold text-xl hover:text-eureka">折腾Hugo静态网站</a>
-</div>
-<div class="content">
-  
-    背景 很早之前就听说过Github推出了一个叫Git Page的产品 … 准备 因为在很多开发，部署，测试的情况需要下载很多依赖， 所以我不会在我的windows
-  
-</div>
-
-<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2020-07-01</span>
-    </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>2分钟阅读时长</span>
-    </div>
-    
-    
-    <div class="mr-6 my-2">
-        <i class="fas fa-folder mr-1"></i>
-        
-        <a href="/zh/categories/hugo/" class="hover:text-eureka">Hugo</a>
-        
-    </div>
-    
-
-    
-</div>
-
-  </div>
-
-  
-</div>
-  </div>
-  
 </div>
 
 
 </div>
 
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a href="#" aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a href="#" aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a href="#" aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/zh/posts/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/zh/posts/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/zh/posts/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
 
       </div>
     </div>

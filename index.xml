@@ -8,7 +8,19 @@
     <language>en</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 10 Nov 2021 05:54:27 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 16:10:30 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homeassitant</title>
+      <link>/posts/homeassitant/</link>
+      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
+      
+      <guid>/posts/homeassitant/</guid>
+      <description>Homeassitant installation by docker docker-compose.yml
+version: &amp;quot;3&amp;quot;services:homeassitant:container_name: homeassistantimage: homeassistant/home-assistantrestart: unless-stoppednetwork_mode: hostprivileged: true# environment:# - https_proxy=http://172.16.8.168:8123volumes:- /root/homeassistant/config:/config- /etc/localtime:/etc/localtime:ro Create and Run docker
+docker-compose up -d HACS installation (Integrations of the community store) If hacs not installed, manually install hacs
+# Go inside the containerdocker exec -it homeassistant bash# Run the hacs download scriptwget -O - https://get.hacs.xyz | bash -# Exit the containerexit Restart homeassistant docker or restart server in Server Controls in Configuration.</description>
+    </item>
+    
     <item>
       <title>Collection</title>
       <link>/posts/memo/collection/</link>
@@ -25,6 +37,15 @@
       
       <guid>/posts/memo/memo/</guid>
       <description>&amp;mdash;&amp;mdash; Introduction Background Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system. It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet. Therefore, The place where people can acquire knowledge is transferred from library to the internet. That further leads to a massive increase in depth and breadth of knowledge that people have acquired. On the internet, we can find a lot of blogs, articles and notes.</description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>/posts/memo/angular/</link>
+      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
+      
+      <guid>/posts/memo/angular/</guid>
+      <description>Contents  Bidirectional data flow between components(@Input &amp;amp; @Output)  Bidirectional data flow between components Sometimes, not work very well. ABANDON  @Input value and @Output valueChange cannot detect value change when child component valueChange emit a value, especially, Multiple inheritance. next, try to use @ViewChild or @ViewChildren  Bidirectional data flow between parent component and child component. It uses @Input and @Output decorates the variables. The more Input and Output details are at official angular guide</description>
     </item>
     
     <item>
