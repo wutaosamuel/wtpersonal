@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>LoveIt - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/loveit/</link>
+        <description>LoveIt - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Jul 2020 12:53:26 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/loveit/" rel="self" type="application/rss+xml" /><item>
+    <title>折腾Hugo静态网站</title>
+    <link>https://wtpersonal.stream/zh-cn/post/hugo/loveit/loveit/</link>
+    <pubDate>Wed, 01 Jul 2020 12:53:26 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/hugo/loveit/loveit/</guid>
+    <description><![CDATA[<h2 id="背景" class="headerLink">
+    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>1 背景</h2><p>很早之前就听说过Github推出了一个叫Git Page的产品 &hellip;</p>
+<h2 id="准备" class="headerLink">
+    <a href="#%e5%87%86%e5%a4%87" class="header-mark"></a>2 准备</h2><p>因为在很多开发，部署，测试的情况需要下载很多依赖，
+所以我不会在我的windows主力机上做开发。
+因此ubuntu虚拟机和windows10的linux子系统是我主要开发平台。
+如果要使用LoveIt主题的Sass/SCSS，必须安装extended标签的hugo。
+现在GO源码安装能同时自动安装相应依赖，所以现在从源码安装也很方便。
+<strong>但是请做好GO代理</strong>。</p>]]></description>
+</item></channel>
+</rss>

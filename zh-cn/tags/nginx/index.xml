@@ -1,0 +1,47 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Nginx - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/nginx/</link>
+        <description>Nginx - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 29 May 2022 12:43:50 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/nginx/" rel="self" type="application/rss+xml" /><item>
+    <title>Nginx Proxy Manager</title>
+    <link>https://wtpersonal.stream/zh-cn/post/docker/nginx-proxy-manager/nginx-proxy-manager/</link>
+    <pubDate>Sun, 29 May 2022 12:43:50 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/docker/nginx-proxy-manager/nginx-proxy-manager/</guid>
+    <description><![CDATA[<p>Nginx Proxy Manager</p>
+<h2 id="目录" class="headerLink">
+    <a href="#%e7%9b%ae%e5%bd%95" class="header-mark"></a>1 目录</h2><ul>
+<li><a href="#%e8%87%aa%e7%ad%be%e5%90%8d%e8%af%81%e4%b9%a6" rel="">自签名证书</a></li>
+</ul>
+<h2 id="自签名证书" class="headerLink">
+    <a href="#%e8%87%aa%e7%ad%be%e5%90%8d%e8%af%81%e4%b9%a6" class="header-mark"></a>2 自签名证书</h2><p>有些项目部署需要 https, 但是它们会在局域网上运行, 而且没有公共域名.
+所以需要生成自签名证书.</p>
+<h3 id="创建密钥" class="headerLink">
+    <a href="#%e5%88%9b%e5%bb%ba%e5%af%86%e9%92%a5" class="header-mark"></a>2.1 创建密钥</h3><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
+    
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item></channel>
+</rss>

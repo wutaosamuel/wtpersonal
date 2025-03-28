@@ -1,0 +1,44 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Windows - 分类 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/categories/windows/</link>
+        <description>Windows - 分类 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 17 Dec 2021 14:23:20 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/categories/windows/" rel="self" type="application/rss+xml" /><item>
+    <title>Window 命令</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/windows-cmd/windows-cmd/</link>
+    <pubDate>Fri, 17 Dec 2021 14:23:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/windows-cmd/windows-cmd/</guid>
+    <description><![CDATA[<p>纪录一些可能有用的，不经常使用的windows命令。</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#%e5%ae%9a%e6%97%b6%e5%85%b3%e6%9c%ba" rel="">定时关机</a></li>
+</ol>
+<h2 id="定时关机" class="headerLink">
+    <a href="#%e5%ae%9a%e6%97%b6%e5%85%b3%e6%9c%ba" class="header-mark"></a>2 定时关机</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
+    
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,43 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Docker - Category - WTPersonal</title>
+        <link>https://wtpersonal.stream/categories/docker/</link>
+        <description>Docker - Category - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/categories/docker/" rel="self" type="application/rss+xml" /><item>
+    <title>Docker IPV6 Setup</title>
+    <link>https://wtpersonal.stream/post/gist/docker/docker/</link>
+    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/gist/docker/docker/</guid>
+    <description><![CDATA[<p>Allow docker to use IPV6 network.</p>
+<p>This solution is not working in my network that parent router may have firewall that make my device unable to get connection automatically,
+details checkout to <a href="./ipv6.en.md" rel="">my ipv6 network issue</a></p>
+<h2 id="check-docker-ipv6-is-enabled" class="headerLink">
+    <a href="#check-docker-ipv6-is-enabled" class="header-mark"></a>1 Check docker IPV6 is enabled</h2><h2 id="get-ipv6-address-range-in-host" class="headerLink">
+    <a href="#get-ipv6-address-range-in-host" class="header-mark"></a>2 Get ipv6 address range in host</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
+    
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item></channel>
+</rss>

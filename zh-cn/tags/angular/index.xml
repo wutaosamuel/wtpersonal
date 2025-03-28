@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Angular - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/angular/</link>
+        <description>Angular - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 03 Nov 2021 17:07:04 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/angular/" rel="self" type="application/rss+xml" /><item>
+    <title>Angular</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/angular/angular/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:04 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/angular/angular/</guid>
+    <description><![CDATA[<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="%e7%bb%84%e4%bb%b6%e4%b8%ad%e5%8f%8c%e5%90%91%e6%95%b0%e6%8d%ae%e6%b5%81%e5%8a%a8" rel="">组件中双向数据流动(@Input &amp; @Output)</a></li>
+</ol>
+<h2 id="组件中双向数据流动" class="headerLink">
+    <a href="#%e7%bb%84%e4%bb%b6%e4%b8%ad%e5%8f%8c%e5%90%91%e6%95%b0%e6%8d%ae%e6%b5%81%e5%8a%a8" class="header-mark"></a>2 组件中双向数据流动</h2><h3 id="有时候-数据无法传递-丢弃" class="headerLink">
+    <a href="#%e6%9c%89%e6%97%b6%e5%80%99-%e6%95%b0%e6%8d%ae%e6%97%a0%e6%b3%95%e4%bc%a0%e9%80%92-%e4%b8%a2%e5%bc%83" class="header-mark"></a>2.1 有时候, 数据无法传递. 丢弃</h3><ul>
+<li>@Input value 和 @Output valueChange 无法准确检测 value 值已经改变. 在多次继承下尤其明显.</li>
+<li>会尝试使用传值@ViewChild 或者@ViewChildren</li>
+</ul>
+<p>母子组件的双向数据流动会使用@Input 和@Output 来修饰变量. 更多的细节参考<a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">官方导向</a></p>]]></description>
+</item></channel>
+</rss>

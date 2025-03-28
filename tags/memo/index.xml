@@ -1,49 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Memo on WTPersonal</title>
-    <link>/tags/memo/</link>
-    <description>Recent content in Memo on WTPersonal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 10 Nov 2021 05:54:27 +0000</lastBuildDate><atom:link href="/tags/memo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Collection</title>
-      <link>/posts/memo/collection/</link>
-      <pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate>
-      
-      <guid>/posts/memo/collection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memo</title>
-      <link>/posts/memo/memo/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:46 +0800</pubDate>
-      
-      <guid>/posts/memo/memo/</guid>
-      <description>&amp;mdash;&amp;mdash; Introduction Background Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system. It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet. Therefore, The place where people can acquire knowledge is transferred from library to the internet. That further leads to a massive increase in depth and breadth of knowledge that people have acquired. On the internet, we can find a lot of blogs, articles and notes.</description>
-    </item>
-    
-    <item>
-      <title>Angular</title>
-      <link>/posts/memo/angular/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
-      
-      <guid>/posts/memo/angular/</guid>
-      <description>Contents  Bidirectional data flow between components(@Input &amp;amp; @Output)  Bidirectional data flow between components Sometimes, not work very well. ABANDON  @Input value and @Output valueChange cannot detect value change when child component valueChange emit a value, especially, Multiple inheritance. next, try to use @ViewChild or @ViewChildren  Bidirectional data flow between parent component and child component. It uses @Input and @Output decorates the variables. The more Input and Output details are at official angular guide</description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>/posts/memo/golang/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
-      
-      <guid>/posts/memo/golang/</guid>
-      <description>Programming Format text string in console display (X)  Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text Consider to try &amp;lsquo;imgui&amp;rsquo;  Network </description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Memo - Tag - WTPersonal</title>
+        <link>https://wtpersonal.stream/tags/memo/</link>
+        <description>Memo - Tag - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/memo/" rel="self" type="application/rss+xml" /><item>
+    <title>Program C functions</title>
+    <link>https://wtpersonal.stream/post/memo/c-function/c-function/</link>
+    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/c-function/c-function/</guid>
+    <description><![CDATA[<p>C related functions</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#assign-string-to-variable" rel="">Assign string to variable</a></li>
+</ol>
+<h2 id="assign-string-to-variable" class="headerLink">
+    <a href="#assign-string-to-variable" class="header-mark"></a>2 Assign string to variable</h2>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th style="text-align: ">Func</th>
+            <th style="text-align: ">Header</th>
+            <th style="text-align: ">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: ">sprintf</td>
+            <td style="text-align: ">string.h</td>
+            <td style="text-align: ">assign format string to variable. sprintf(str, &ldquo;%s %s\n&rdquo;, s1, s2)</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">strncpy</td>
+            <td style="text-align: ">string.h</td>
+            <td style="text-align: ">copy string from a variable to another. strncpy(str, source, length)</td>
+        </tr>
+    </tbody>
+  </table>
+</div>]]></description>
+</item><item>
+    <title>OpenWRT</title>
+    <link>https://wtpersonal.stream/post/memo/openwrt/openwrt/</link>
+    <pubDate>Sat, 28 May 2022 17:52:50 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/openwrt/openwrt/</guid>
+    <description><![CDATA[<p>OpenWRT</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#wildcard-domain-&amp;-subdomain" rel="">Wildcard Domain&amp;Subdomain</a></li>
+</ol>
+<h2 id="wildcard-domain--subdomain" class="headerLink">
+    <a href="#wildcard-domain--subdomain" class="header-mark"></a>2 Wildcard Domain &amp; Subdomain</h2><h3 id="introduction" class="headerLink">
+    <a href="#introduction" class="header-mark"></a>2.1 Introduction</h3><p>The IP address can be fixed manually in <strong>Network -&gt; DHCP and DNS -&gt; Static Leases</strong>.
+The default local domain will be automatically allocated by hostname.
+For instance, <strong>ubuntuNginx.lan</strong> is the local domain of <strong>ubuntuNginx</strong> machine.</p>
+<p>However, if I want to all sub-domains pointing to a ip address, it has to add hostnames into <strong>Network -&gt; Hostnames</strong> with every sub-domain manually.</p>]]></description>
+</item><item>
+    <title>Memo</title>
+    <link>https://wtpersonal.stream/post/memo/memo/memo/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:46 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/memo/memo/</guid>
+    <description><![CDATA[<h2 id="-introduction" class="headerLink">
+    <a href="#-introduction" class="header-mark"></a>1 &mdash;&mdash; Introduction</h2><h2 id="background" class="headerLink">
+    <a href="#background" class="header-mark"></a>2 Background</h2><p>Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system.
+It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet.
+Therefore, The place where people can acquire knowledge is transferred from library to the internet.
+That further leads to a massive increase in depth and breadth of knowledge that people have acquired.
+On the internet, we can find a lot of blogs, articles and notes. They&rsquo;re detailed explain concepts and usage of knowledge.</p>]]></description>
+</item><item>
+    <title>Angular</title>
+    <link>https://wtpersonal.stream/post/memo/angular/angular/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:04 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/angular/angular/</guid>
+    <description><![CDATA[<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="bidirectional-data-flow-between-components" rel="">Bidirectional data flow between components(@Input &amp; @Output)</a></li>
+</ol>
+<h2 id="bidirectional-data-flow-between-components" class="headerLink">
+    <a href="#bidirectional-data-flow-between-components" class="header-mark"></a>2 Bidirectional data flow between components</h2><h3 id="sometimes-not-work-very-well-abandon" class="headerLink">
+    <a href="#sometimes-not-work-very-well-abandon" class="header-mark"></a>2.1 Sometimes, not work very well. ABANDON</h3><ul>
+<li>@Input value and @Output valueChange cannot detect value change when child component valueChange emit a value, especially, Multiple inheritance.</li>
+<li>next, try to use @ViewChild or @ViewChildren</li>
+</ul>
+<p>Bidirectional data flow between parent component and child component.
+It uses @Input and @Output decorates the variables.
+The more Input and Output details are at <a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">official angular guide</a></p>]]></description>
+</item><item>
+    <title>Golang</title>
+    <link>https://wtpersonal.stream/post/memo/golang/golang/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:04 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/golang/golang/</guid>
+    <description><![CDATA[<h2 id="programming" class="headerLink">
+    <a href="#programming" class="header-mark"></a>1 Programming</h2><h3 id="format-text-string-in-console-display-x" class="headerLink">
+    <a href="#format-text-string-in-console-display-x" class="header-mark"></a>1.1 Format text string in console display (X)</h3><ul>
+<li>Looking for the solution. The &lsquo;\t&rsquo; did not work, especially, cannot align upper and lower text</li>
+<li>Consider to try &lsquo;imgui&rsquo;</li>
+</ul>
+<h2 id="network" class="headerLink">
+    <a href="#network" class="header-mark"></a>2 Network</h2>]]></description>
+</item></channel>
 </rss>

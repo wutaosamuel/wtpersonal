@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Linux - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/linux/</link>
+        <description>Linux - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>类unix系统命令</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/command/command/</link>
+    <pubDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/command/command/</guid>
+    <description><![CDATA[<p>纪录一些可能有用的，不经常使用的命令。</p>
+<h2 id="目录" class="headerLink">
+    <a href="#%e7%9b%ae%e5%bd%95" class="header-mark"></a>1 目录</h2><ol>
+<li><a href="#iperf3" rel="">iperf3 - 测试网络速度</a></li>
+<li><a href="#qemu-%e8%bd%ac%e6%8d%a2%e7%a3%81%e7%9b%98%e6%98%a0%e5%83%8f" rel="">qemu - 转换磁盘映像</a></li>
+<li><a href="#base64-%e5%8a%a0%e5%af%86%e5%92%8c%e8%a7%a3%e5%af%86" rel="">base64 - 加密和解密</a></li>
+<li><a href="#macos-%e6%9f%a5%e7%9c%8bssd%e5%81%a5%e5%ba%b7" rel="">smartctl - 查看ssd健康</a></li>
+</ol>
+<h2 id="iperf3" class="headerLink">
+    <a href="#iperf3" class="header-mark"></a>2 iperf3</h2><p>测试设备间网络速度。
+先开启服务端 iperf/iperf3 服务，
+再用客户端 iperf/iperf3 测速。
+windows 下为 iperf3.exe 应用。</p>]]></description>
+</item></channel>
+</rss>

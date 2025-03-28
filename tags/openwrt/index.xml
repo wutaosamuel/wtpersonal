@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>OpenWRT - Tag - WTPersonal</title>
+        <link>https://wtpersonal.stream/tags/openwrt/</link>
+        <description>OpenWRT - Tag - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 28 May 2022 17:52:50 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/openwrt/" rel="self" type="application/rss+xml" /><item>
+    <title>OpenWRT</title>
+    <link>https://wtpersonal.stream/post/memo/openwrt/openwrt/</link>
+    <pubDate>Sat, 28 May 2022 17:52:50 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/openwrt/openwrt/</guid>
+    <description><![CDATA[<p>OpenWRT</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#wildcard-domain-&amp;-subdomain" rel="">Wildcard Domain&amp;Subdomain</a></li>
+</ol>
+<h2 id="wildcard-domain--subdomain" class="headerLink">
+    <a href="#wildcard-domain--subdomain" class="header-mark"></a>2 Wildcard Domain &amp; Subdomain</h2><h3 id="introduction" class="headerLink">
+    <a href="#introduction" class="header-mark"></a>2.1 Introduction</h3><p>The IP address can be fixed manually in <strong>Network -&gt; DHCP and DNS -&gt; Static Leases</strong>.
+The default local domain will be automatically allocated by hostname.
+For instance, <strong>ubuntuNginx.lan</strong> is the local domain of <strong>ubuntuNginx</strong> machine.</p>
+<p>However, if I want to all sub-domains pointing to a ip address, it has to add hostnames into <strong>Network -&gt; Hostnames</strong> with every sub-domain manually.</p>]]></description>
+</item></channel>
+</rss>

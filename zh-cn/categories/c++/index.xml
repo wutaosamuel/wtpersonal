@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>C&#43;&#43; - 分类 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/categories/c&#43;&#43;/</link>
+        <description>C&#43;&#43; - 分类 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Feb 2022 19:09:30 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/categories/c&#43;&#43;/" rel="self" type="application/rss+xml" /><item>
+    <title>C/C&#43;&#43;</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/cpp/cpp/</link>
+    <pubDate>Wed, 09 Feb 2022 19:09:30 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/cpp/cpp/</guid>
+    <description><![CDATA[<h2 id="编程" class="headerLink">
+    <a href="#%e7%bc%96%e7%a8%8b" class="header-mark"></a>1 编程</h2><ul>
+<li>内敛函数 inline: 少量代码, 频繁调用, 没有loop</li>
+<li>explicit: 防止程序隐式调用</li>
+<li>NULL变量 分配内存
+<ul>
+<li>NULL变量 指针分配内存需要return指针变量, 不能传入NULL指针变量</li>
+</ul>
+</li>
+</ul>]]></description>
+</item></channel>
+</rss>

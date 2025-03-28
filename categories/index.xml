@@ -1,40 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on WTPersonal</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on WTPersonal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 24 Nov 2021 16:10:30 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>More</title>
-      <link>/categories/more/</link>
-      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
-      
-      <guid>/categories/more/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memo</title>
-      <link>/categories/memo/</link>
-      <pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate>
-      
-      <guid>/categories/memo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proxmox</title>
-      <link>/categories/proxmox/</link>
-      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
-      
-      <guid>/categories/proxmox/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - WTPersonal</title>
+        <link>https://wtpersonal.stream/categories/</link>
+        <description>Categories - Category - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Gist</title>
+    <link>https://wtpersonal.stream/categories/gist/</link>
+    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/gist/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>More</title>
+    <link>https://wtpersonal.stream/categories/more/</link>
+    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/more/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>RAspberry-Pi</title>
+    <link>https://wtpersonal.stream/categories/raspberry-pi/</link>
+    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/raspberry-pi/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>C</title>
+    <link>https://wtpersonal.stream/categories/c/</link>
+    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/c/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Memo</title>
+    <link>https://wtpersonal.stream/categories/memo/</link>
+    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/memo/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Proxmox</title>
+    <link>https://wtpersonal.stream/categories/proxmox/</link>
+    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/proxmox/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>VPS</title>
+    <link>https://wtpersonal.stream/categories/vps/</link>
+    <pubDate>Sat, 21 Dec 2024 00:01:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/vps/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Docker</title>
+    <link>https://wtpersonal.stream/categories/docker/</link>
+    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/docker/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Command</title>
+    <link>https://wtpersonal.stream/categories/command/</link>
+    <pubDate>Fri, 17 Dec 2021 23:00:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/command/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Windows</title>
+    <link>https://wtpersonal.stream/categories/windows/</link>
+    <pubDate>Fri, 17 Dec 2021 23:00:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/categories/windows/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

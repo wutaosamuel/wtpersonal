@@ -1,0 +1,43 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>C - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/c/</link>
+        <description>C - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/c/" rel="self" type="application/rss+xml" /><item>
+    <title>C语言的函数</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/c-function/c-function/</link>
+    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/c-function/c-function/</guid>
+    <description><![CDATA[<p>C的函数</p>
+<h2 id="目录" class="headerLink">
+    <a href="#%e7%9b%ae%e5%bd%95" class="header-mark"></a>1 目录</h2><ol>
+<li><a href="#%e6%8a%8a%e5%ad%97%e7%ac%a6%e4%b8%b2%e8%b5%8b%e5%80%bc%e5%88%b0%e5%8f%98%e9%87%8f%e4%b8%ad" rel="">把字符串赋值到变量中</a></li>
+</ol>
+<h2 id="把字符串赋值到变量中" class="headerLink">
+    <a href="#%e6%8a%8a%e5%ad%97%e7%ac%a6%e4%b8%b2%e8%b5%8b%e5%80%bc%e5%88%b0%e5%8f%98%e9%87%8f%e4%b8%ad" class="header-mark"></a>2 把字符串赋值到变量中</h2>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th style="text-align: ">函数</th>
+            <th style="text-align: ">头文件</th>
+            <th style="text-align: ">描述</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: ">sprintf</td>
+            <td style="text-align: ">string.h</td>
+            <td style="text-align: ">把格式化的字符串赋值到变量中. sprintf(str, &ldquo;%s %s\n&rdquo;, s1, s2)</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">strncpy</td>
+            <td style="text-align: ">string.h</td>
+            <td style="text-align: ">把别的变量的字符串赋到变量中. strncpy(str, source, length)</td>
+        </tr>
+    </tbody>
+  </table>
+</div>]]></description>
+</item></channel>
+</rss>

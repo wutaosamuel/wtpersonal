@@ -1,0 +1,43 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>C - Category - WTPersonal</title>
+        <link>https://wtpersonal.stream/categories/c/</link>
+        <description>C - Category - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/categories/c/" rel="self" type="application/rss+xml" /><item>
+    <title>Program C functions</title>
+    <link>https://wtpersonal.stream/post/memo/c-function/c-function/</link>
+    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/c-function/c-function/</guid>
+    <description><![CDATA[<p>C related functions</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#assign-string-to-variable" rel="">Assign string to variable</a></li>
+</ol>
+<h2 id="assign-string-to-variable" class="headerLink">
+    <a href="#assign-string-to-variable" class="header-mark"></a>2 Assign string to variable</h2>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th style="text-align: ">Func</th>
+            <th style="text-align: ">Header</th>
+            <th style="text-align: ">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: ">sprintf</td>
+            <td style="text-align: ">string.h</td>
+            <td style="text-align: ">assign format string to variable. sprintf(str, &ldquo;%s %s\n&rdquo;, s1, s2)</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">strncpy</td>
+            <td style="text-align: ">string.h</td>
+            <td style="text-align: ">copy string from a variable to another. strncpy(str, source, length)</td>
+        </tr>
+    </tbody>
+  </table>
+</div>]]></description>
+</item></channel>
+</rss>

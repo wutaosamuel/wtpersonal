@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>OpenWRT - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/openwrt/</link>
+        <description>OpenWRT - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 28 May 2022 17:52:50 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/openwrt/" rel="self" type="application/rss+xml" /><item>
+    <title>OpenWRT</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/openwrt/openwrt/</link>
+    <pubDate>Sat, 28 May 2022 17:52:50 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/openwrt/openwrt/</guid>
+    <description><![CDATA[<p>OpenWRT</p>
+<h2 id="目录" class="headerLink">
+    <a href="#%e7%9b%ae%e5%bd%95" class="header-mark"></a>1 目录</h2><ol>
+<li><a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-IP-%e9%80%9a%e9%85%8d" rel="">子域名及多级域名的 IP 通配</a></li>
+</ol>
+<h2 id="子域名及多级域名的-ip-通配" class="headerLink">
+    <a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-ip-%e9%80%9a%e9%85%8d" class="header-mark"></a>2 子域名及多级域名的 IP 通配</h2><h3 id="介绍" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>2.1 介绍</h3><p>IP 可以在 <strong>网络 -&gt; DHCP/DNS -&gt; 静态地址</strong> 固定.
+默认的本地域名是根据主机名来的.
+例子: <strong>ubuntuNginx.lan</strong> 是 <strong>ubuntuNginx</strong> 机器的本地域名.</p>
+<p>然而, 如果我想所有多级域名都指向同一 IP 地址, 我必须在 <strong>网络 -&gt; 主机映射</strong> 中手动添加每个子域名.</p>]]></description>
+</item></channel>
+</rss>

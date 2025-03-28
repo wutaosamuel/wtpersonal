@@ -1,0 +1,29 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Golang - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/golang/</link>
+        <description>Golang - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 03 Nov 2021 17:07:13 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/golang/" rel="self" type="application/rss+xml" /><item>
+    <title>Golang</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/golang/golang/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:13 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/golang/golang/</guid>
+    <description><![CDATA[<h2 id="编程" class="headerLink">
+    <a href="#%e7%bc%96%e7%a8%8b" class="header-mark"></a>1 编程</h2><ul>
+<li>命令行中格式化显示文字 (X)
+<ul>
+<li>还在寻找方法. &lsquo;\t&rsquo; 并不能很好的对齐.</li>
+<li>考虑尝试 &lsquo;imgui&rsquo;</li>
+</ul>
+</li>
+<li>abc
+<ul>
+<li>1.1</li>
+</ul>
+</li>
+</ul>
+<h2 id="网络" class="headerLink">
+    <a href="#%e7%bd%91%e7%bb%9c" class="header-mark"></a>2 网络</h2>]]></description>
+</item></channel>
+</rss>

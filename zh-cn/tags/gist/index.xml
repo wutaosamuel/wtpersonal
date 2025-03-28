@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Gist - 标签 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/tags/gist/</link>
+        <description>Gist - 标签 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/gist/" rel="self" type="application/rss+xml" /><item>
+    <title>Proxmox</title>
+    <link>https://wtpersonal.stream/zh-cn/post/gist/proxmox/proxmox/</link>
+    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/gist/proxmox/proxmox/</guid>
+    <description><![CDATA[<p>记录一些关于Proxmox的东西</p>
+<h2 id="在无特权的lxc容器中挂载nfscifs" class="headerLink">
+    <a href="#%e5%9c%a8%e6%97%a0%e7%89%b9%e6%9d%83%e7%9a%84lxc%e5%ae%b9%e5%99%a8%e4%b8%ad%e6%8c%82%e8%bd%bdnfscifs" class="header-mark"></a>1 在无特权的LXC容器中挂载NFS/CIFS</h2><p><a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">教程</a></p>]]></description>
+</item><item>
+    <title>Connect to IPV6 network with public-ipv4-only VPS</title>
+    <link>https://wtpersonal.stream/zh-cn/post/gist/vps-ipv6/vps-ipv6/</link>
+    <pubDate>Sun, 22 Dec 2024 00:11:28 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/gist/vps-ipv6/vps-ipv6/</guid>
+    <description><![CDATA[<h2 id="起因" class="headerLink">
+    <a href="#%e8%b5%b7%e5%9b%a0" class="header-mark"></a>1 起因</h2><p>很多云服务供应商只提供了公网ipv4的虚拟机。但是因为一些原因, 我们需要用到ipv6的网络来进行访问。这里我们用到的是ipv4到ipv6的转换服务。</p>]]></description>
+</item></channel>
+</rss>

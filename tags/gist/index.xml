@@ -1,0 +1,152 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Gist - Tag - WTPersonal</title>
+        <link>https://wtpersonal.stream/tags/gist/</link>
+        <description>Gist - Tag - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/gist/" rel="self" type="application/rss+xml" /><item>
+    <title>Connect to IPV6 network with public-ipv4-only VPS</title>
+    <link>https://wtpersonal.stream/post/gist/rasp-ap/rasp-ap/</link>
+    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/gist/rasp-ap/rasp-ap/</guid>
+    <description><![CDATA[<h2 id="background" class="headerLink">
+    <a href="#background" class="header-mark"></a>1 Background</h2><p>Raspberry Pi OS become AP while connecting to wireless network.</p>
+<h2 id="step" class="headerLink">
+    <a href="#step" class="header-mark"></a>2 Step</h2><ol>
+<li>Install <a href="https://raspap.com/" target="_blank" rel="noopener noreferrer">RaspAP</a> project with</li>
+</ol>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
+    
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>Proxmox Gist</title>
+    <link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link>
+    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid>
+    <description><![CDATA[<p>There are a few gists for proxmox.</p>
+<h2 id="mount-nfscifs-share-in-unprivileged-lxc-containers" class="headerLink">
+    <a href="#mount-nfscifs-share-in-unprivileged-lxc-containers" class="header-mark"></a>1 Mount NFS/CIFS share in Unprivileged LXC containers</h2><p><a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">Tutorial</a></p>]]></description>
+</item><item>
+    <title>Connect to IPV6 network with public-ipv4-only VPS</title>
+    <link>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</link>
+    <pubDate>Sat, 21 Dec 2024 00:01:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</guid>
+    <description><![CDATA[<h2 id="background" class="headerLink">
+    <a href="#background" class="header-mark"></a>1 Background</h2><p>There are many cloud service providers only sell public-ipv4-only virtual machines. But, for some reasons, having ipv6 support could make things easier. In this case, we&rsquo;ll use ipv4 to ipv6 tunnel to connect to ipv6 network.</p>
+<h2 id="step" class="headerLink">
+    <a href="#step" class="header-mark"></a>2 Step</h2><ol>
+<li>register in <a href="https://tunnelbroker.net" target="_blank" rel="noopener noreferrer">HE.net tunnel broker</a> for free to use ipv4ToIpv6 tunnel service
+1.1. create tunnel
+1.2. configure ipv6 tunnel on virtual machine through its example configurations.</li>
+<li>waiting until it is ready</li>
+</ol>
+<h2 id="ipv6-tunnel-problem" class="headerLink">
+    <a href="#ipv6-tunnel-problem" class="header-mark"></a>3 IPV6 tunnel problem</h2><ol>
+<li>He.net unable to register by gmail and outlook.
+<ul>
+<li>Solution: it works with 163, registered at 2024-12-21.</li>
+</ul>
+</li>
+<li>He.net cannot create ipv6 tunnel, caused by &ldquo;This network is restricted&rdquo;
+<ul>
+<li>Possible reason: He.net block target ip address</li>
+<li>Solution: create tunnel with valid ipv4 address. Then, switch to blocked ip address, created at 2024-12-21</li>
+</ul>
+</li>
+<li>He.net tunnel will close due to inactivity for a certain time.
+<ul>
+<li>Solution: ping a ipv6 website periodically every 10 minutes.
+Sh: <code>crontab -l 2&gt;/dev/null | echo &quot;*/10 * * * * ping -c 2 ipv6.google.com&quot; | crontab -</code></li>
+</ul>
+</li>
+</ol>]]></description>
+</item><item>
+    <title>Docker IPV6 Setup</title>
+    <link>https://wtpersonal.stream/post/gist/docker/docker/</link>
+    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/gist/docker/docker/</guid>
+    <description><![CDATA[<p>Allow docker to use IPV6 network.</p>
+<p>This solution is not working in my network that parent router may have firewall that make my device unable to get connection automatically,
+details checkout to <a href="./ipv6.en.md" rel="">my ipv6 network issue</a></p>
+<h2 id="check-docker-ipv6-is-enabled" class="headerLink">
+    <a href="#check-docker-ipv6-is-enabled" class="header-mark"></a>1 Check docker IPV6 is enabled</h2><h2 id="get-ipv6-address-range-in-host" class="headerLink">
+    <a href="#get-ipv6-address-range-in-host" class="header-mark"></a>2 Get ipv6 address range in host</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
+    
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>OpenWRT IPV6 Setup</title>
+    <link>https://wtpersonal.stream/post/gist/ipv6/ipv6/</link>
+    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/gist/ipv6/ipv6/</guid>
+    <description><![CDATA[<p>TODO: Add ipv6 setting up for home network</p>
+<p>Enable IPV6 connection in OpenWRT.</p>
+<h2 id="ipv6-network" class="headerLink">
+    <a href="#ipv6-network" class="header-mark"></a>1 IPV6 network</h2><ol>
+<li>ipv6 relay mode if router does not been assigned ipv6 address with prefix delegation.</li>
+<li>ipv6 server mode if router has ipv6 address with prefix delegation.</li>
+</ol>
+<h2 id="ipv6-problem-in-relay-mode" class="headerLink">
+    <a href="#ipv6-problem-in-relay-mode" class="header-mark"></a>2 IPV6 problem in relay mode</h2><ol>
+<li>if upstream router has wrong settings that cause all clients cannot be assigned ipv6 address.
+It requires client to ping the router for getting ipv6 address.
+<ul>
+<li>TODO: add keywords for searching the solutions</li>
+</ul>
+</li>
+<li>connection problem if router sets learn routes in v24.01
+<ul>
+<li>disable learn routes in WAN interface</li>
+<li>disable learn routes in LAN interface</li>
+</ul>
+</li>
+</ol>]]></description>
+</item></channel>
+</rss>

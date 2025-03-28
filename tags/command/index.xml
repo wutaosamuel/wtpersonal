@@ -1,36 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Command on WTPersonal</title>
-    <link>/tags/command/</link>
-    <description>Recent content in Command on WTPersonal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Sun, 15 Nov 2020 17:01:50 +0800</lastBuildDate><atom:link href="/tags/command/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Proxmox Commands</title>
-      <link>/posts/proxmox/command/</link>
-      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
-      
-      <guid>/posts/proxmox/command/</guid>
-      <description>Record usd Proxmox VE commands.
-Contents  Import disk img Add/Rescan undisplayed disk Passthrough sata drivers Delete PVE cluster Reinstall ceph  Import disk img Transfer .img disc image file to Virtual Machine(vm) disk.
- The example is to transfer openWRT image file to VM disk.  qm importdisk [VM id] [image path] [storage id] Example:
-qm importdisk 100 ./openwrt.img local-lvm Rescan undisplayed disk It would be rescan all disk which belongs to a specific virtual machine.</description>
-    </item>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Command - Tag - WTPersonal</title>
+        <link>https://wtpersonal.stream/tags/command/</link>
+        <description>Command - Tag - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 17 Dec 2021 23:00:20 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/command/" rel="self" type="application/rss+xml" /><item>
+    <title>Windows Commands</title>
+    <link>https://wtpersonal.stream/post/memo/windows-cmd/windows-cmd/</link>
+    <pubDate>Fri, 17 Dec 2021 23:00:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/windows-cmd/windows-cmd/</guid>
+    <description><![CDATA[<p>Record infrequently used but potential useful windows commands</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#Shutdown-in-schedule" rel="">Shutdown in Schedule</a></li>
+</ol>
+<h2 id="shutdown-in-schedule" class="headerLink">
+    <a href="#shutdown-in-schedule" class="header-mark"></a>2 Shutdown in schedule</h2><p>shut windows down by time in second</p>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
     
-    <item>
-      <title>Unix-like System Commands</title>
-      <link>/posts/command/</link>
-      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
-      
-      <guid>/posts/command/</guid>
-      <description>Record infrequently used but potential useful commands
-Contents  iperf3 - Network speed test qemu - convert images  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
-Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 Qemu convert images qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0.</description>
-    </item>
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>Proxmox Commands</title>
+    <link>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</link>
+    <pubDate>Sun, 15 Nov 2020 17:01:50 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</guid>
+    <description><![CDATA[<p>Record usd Proxmox VE commands.</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#import-disk-img" rel="">Import disk img</a></li>
+<li><a href="#rescan-undisplayed-disk" rel="">Add/Rescan undisplayed disk</a></li>
+<li><a href="#passthrough-sata-drivers" rel="">Passthrough sata drivers</a></li>
+<li><a href="#delete-pve-cluster" rel="">Delete PVE cluster</a></li>
+<li><a href="#reinstall-ceph" rel="">Reinstall ceph</a></li>
+<li><a href="#pin-older-kernel" rel="">Pin older kernel</a></li>
+<li><a href="#delete-snapshot-forcedly" rel="">Delete snapshot forcedly</a></li>
+<li><a href="#unlock-virtual-machine" rel="">Unlock virtual machine</a></li>
+<li><a href="#unlock-lxc-container" rel="">Unlock lxc container</a></li>
+</ol>
+<h2 id="import-disk-image" class="headerLink">
+    <a href="#import-disk-image" class="header-mark"></a>2 Import Disk Image</h2><p>Transfer .img disc image file to Virtual Machine(vm) disk.</p>
+<ul>
+<li>The example is to transfer openWRT image file to VM disk.</li>
+</ul>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
     
-  </channel>
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>Unix-like System Commands</title>
+    <link>https://wtpersonal.stream/post/memo/command/command/</link>
+    <pubDate>Tue, 27 Oct 2020 23:00:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/command/command/</guid>
+    <description><![CDATA[<p>Record infrequently used but potential useful commands</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#iperf3" rel="">iperf3 - Network speed test</a></li>
+<li><a href="#qemu-convert-images" rel="">qemu - convert images</a></li>
+<li><a href="#base64-encode-and-decode" rel="">base64 - encode &amp; decode</a></li>
+<li><a href="#macos-check-ssd-health" rel="">smartctl - check macos ssd health</a></li>
+<li><a href="#git-crypt" rel="">git-crypt - transparent file encryption in git</a></li>
+</ol>
+<h2 id="iperf3" class="headerLink">
+    <a href="#iperf3" class="header-mark"></a>2 iperf3</h2><p>Test network speed between devices.
+First, open server-side iperf/iperf3 service,
+then, test it by client-side iperf/iperf3 application.
+Under windows system, the application is iperf3.exe.</p>
+<h3 id="open-server-side-iperf3-service" class="headerLink">
+    <a href="#open-server-side-iperf3-service" class="header-mark"></a>2.1 Open server-side iperf3 service</h3><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
+    
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item></channel>
 </rss>

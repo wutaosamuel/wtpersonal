@@ -1,94 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on WTPersonal</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on WTPersonal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 24 Nov 2021 16:10:30 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>More</title>
-      <link>/tags/more/</link>
-      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
-      
-      <guid>/tags/more/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smart Device</title>
-      <link>/tags/smart-device/</link>
-      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
-      
-      <guid>/tags/smart-device/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memo</title>
-      <link>/tags/memo/</link>
-      <pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate>
-      
-      <guid>/tags/memo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Angular</title>
-      <link>/tags/angular/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
-      
-      <guid>/tags/angular/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>/tags/golang/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
-      
-      <guid>/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Command</title>
-      <link>/tags/command/</link>
-      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
-      
-      <guid>/tags/command/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proxmox</title>
-      <link>/tags/proxmox/</link>
-      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
-      
-      <guid>/tags/proxmox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PVE</title>
-      <link>/tags/pve/</link>
-      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
-      
-      <guid>/tags/pve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>/tags/linux/</link>
-      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
-      
-      <guid>/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - WTPersonal</title>
+        <link>https://wtpersonal.stream/tags/</link>
+        <description>Tags - Tag - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Gist</title>
+    <link>https://wtpersonal.stream/tags/gist/</link>
+    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/gist/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>More</title>
+    <link>https://wtpersonal.stream/tags/more/</link>
+    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/more/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Raspberry-Pi</title>
+    <link>https://wtpersonal.stream/tags/raspberry-pi/</link>
+    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/raspberry-pi/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>C</title>
+    <link>https://wtpersonal.stream/tags/c/</link>
+    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/c/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Memo</title>
+    <link>https://wtpersonal.stream/tags/memo/</link>
+    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/memo/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>IPV6</title>
+    <link>https://wtpersonal.stream/tags/ipv6/</link>
+    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/ipv6/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Proxmox</title>
+    <link>https://wtpersonal.stream/tags/proxmox/</link>
+    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/proxmox/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>VPS</title>
+    <link>https://wtpersonal.stream/tags/vps/</link>
+    <pubDate>Sat, 21 Dec 2024 00:01:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/vps/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Docker</title>
+    <link>https://wtpersonal.stream/tags/docker/</link>
+    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/docker/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>PVE</title>
+    <link>https://wtpersonal.stream/tags/pve/</link>
+    <pubDate>Tue, 28 May 2024 21:33:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/tags/pve/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

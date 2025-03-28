@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Golang on WTPersonal</title>
-    <link>/tags/golang/</link>
-    <description>Recent content in Golang on WTPersonal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 03 Nov 2021 17:07:04 +0800</lastBuildDate><atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Golang</title>
-      <link>/posts/memo/golang/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
-      
-      <guid>/posts/memo/golang/</guid>
-      <description>Programming Format text string in console display (X)  Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text Consider to try &amp;lsquo;imgui&amp;rsquo;  Network </description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Golang - Tag - WTPersonal</title>
+        <link>https://wtpersonal.stream/tags/golang/</link>
+        <description>Golang - Tag - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 03 Nov 2021 17:07:04 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/golang/" rel="self" type="application/rss+xml" /><item>
+    <title>Golang</title>
+    <link>https://wtpersonal.stream/post/memo/golang/golang/</link>
+    <pubDate>Wed, 03 Nov 2021 17:07:04 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/memo/golang/golang/</guid>
+    <description><![CDATA[<h2 id="programming" class="headerLink">
+    <a href="#programming" class="header-mark"></a>1 Programming</h2><h3 id="format-text-string-in-console-display-x" class="headerLink">
+    <a href="#format-text-string-in-console-display-x" class="header-mark"></a>1.1 Format text string in console display (X)</h3><ul>
+<li>Looking for the solution. The &lsquo;\t&rsquo; did not work, especially, cannot align upper and lower text</li>
+<li>Consider to try &lsquo;imgui&rsquo;</li>
+</ul>
+<h2 id="network" class="headerLink">
+    <a href="#network" class="header-mark"></a>2 Network</h2>]]></description>
+</item></channel>
 </rss>

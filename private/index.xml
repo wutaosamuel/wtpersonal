@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privates on WTPersonal</title>
+    <link>https://wtpersonal.stream/private/</link>
+    <description>Recent content in Privates on WTPersonal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://wtpersonal.stream/private/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://wtpersonal.stream/private/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wtpersonal.stream/private/info/</guid>
+      <description>&lt;p&gt;#&amp;mdash;&#xA;#title: &amp;ldquo;My Information&amp;rdquo;&#xA;#toc: false&#xA;#date: 2024-12-04T22:41:00+08:00&#xA;#lastmod: 2024-12-04T22:41:00+08:00&#xA;#featuredImage:&#xA;#draft: false&#xA;#[_build]&#xA;#render = &amp;ldquo;never&amp;rdquo;&#xA;#list = &amp;ldquo;never&amp;rdquo;&#xA;#tags: []&#xA;#categories: []&#xA;#&amp;mdash;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>编程 - 分类 - WTPersonal</title>
+        <link>https://wtpersonal.stream/zh-cn/categories/%E7%BC%96%E7%A8%8B/</link>
+        <description>编程 - 分类 - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Feb 2022 19:09:30 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/categories/%E7%BC%96%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>程序</title>
+    <link>https://wtpersonal.stream/zh-cn/post/memo/program/program/</link>
+    <pubDate>Wed, 09 Feb 2022 19:09:30 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/zh-cn/post/memo/program/program/</guid>
+    <description><![CDATA[<h2 id="程序" class="headerLink">
+    <a href="#%e7%a8%8b%e5%ba%8f" class="header-mark"></a>1 程序</h2><ul>
+<li>先规划整体框架, 框架中每个功能以回调函数实现
+<ul>
+<li>为了方便测试, 整体框架和功能函数可以分开测试</li>
+</ul>
+</li>
+<li>在封装成对象之前, 必须考虑成员值是需要复制还是指向指针
+<ul>
+<li>考虑因素: 内存开销, 成员调用频率, 外部修改成员值</li>
+</ul>
+</li>
+</ul>]]></description>
+</item></channel>
+</rss>

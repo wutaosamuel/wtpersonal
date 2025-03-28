@@ -1,35 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Proxmox on WTPersonal</title>
-    <link>/tags/proxmox/</link>
-    <description>Recent content in Proxmox on WTPersonal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Sun, 15 Nov 2020 17:01:50 +0800</lastBuildDate><atom:link href="/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Proxmox Commands</title>
-      <link>/posts/proxmox/command/</link>
-      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
-      
-      <guid>/posts/proxmox/command/</guid>
-      <description>Record usd Proxmox VE commands.
-Contents  Import disk img Add/Rescan undisplayed disk Passthrough sata drivers Delete PVE cluster Reinstall ceph  Import disk img Transfer .img disc image file to Virtual Machine(vm) disk.
- The example is to transfer openWRT image file to VM disk.  qm importdisk [VM id] [image path] [storage id] Example:
-qm importdisk 100 ./openwrt.img local-lvm Rescan undisplayed disk It would be rescan all disk which belongs to a specific virtual machine.</description>
-    </item>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Proxmox - Tag - WTPersonal</title>
+        <link>https://wtpersonal.stream/tags/proxmox/</link>
+        <description>Proxmox - Tag - WTPersonal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/proxmox/" rel="self" type="application/rss+xml" /><item>
+    <title>Proxmox Gist</title>
+    <link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link>
+    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid>
+    <description><![CDATA[<p>There are a few gists for proxmox.</p>
+<h2 id="mount-nfscifs-share-in-unprivileged-lxc-containers" class="headerLink">
+    <a href="#mount-nfscifs-share-in-unprivileged-lxc-containers" class="header-mark"></a>1 Mount NFS/CIFS share in Unprivileged LXC containers</h2><p><a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">Tutorial</a></p>]]></description>
+</item><item>
+    <title>All-in-one router in proxmox for rental place</title>
+    <link>https://wtpersonal.stream/post/proxmox/mobile-pve/mobile-pve/</link>
+    <pubDate>Tue, 28 May 2024 21:33:00 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/proxmox/mobile-pve/mobile-pve/</guid>
+    <description><![CDATA[<ul>
+<li>background</li>
+<li>software structure</li>
+</ul>
+<h2 id="change-source" class="headerLink">
+    <a href="#change-source" class="header-mark"></a>1 Change source</h2><h3 id="debian-source" class="headerLink">
+    <a href="#debian-source" class="header-mark"></a>1.1 Debian source</h3><h3 id="proxmox-community-source" class="headerLink">
+    <a href="#proxmox-community-source" class="header-mark"></a>1.2 Proxmox community source</h3><h2 id="openwrt-setup" class="headerLink">
+    <a href="#openwrt-setup" class="header-mark"></a>2 OpenWRT setup</h2><h2 id="internal-network-interface-for-login" class="headerLink">
+    <a href="#internal-network-interface-for-login" class="header-mark"></a>3 Internal network interface for Login</h2><p>The official Proxmox provides a enterprise source,
+but we do not need to subscription a enterprise license in home use.
+We only need the free and well-supported community source.
+By the way, we get a limitation download speed from international connect
+(1Mbps approximately) in home use, even I bought 300Mbps download speed plan.
+Thus, need to change system software sources as well.
+It will need <a href="https://developer.aliyun.com/mirror/" target="_blank" rel="noopener noreferrer">Ali Yun source</a>
+and<a href="http://mirrors.ustc.edu.cn/" target="_blank" rel="noopener noreferrer">USTC source</a>。</p>]]></description>
+</item><item>
+    <title>Proxmox Commands</title>
+    <link>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</link>
+    <pubDate>Sun, 15 Nov 2020 17:01:50 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</guid>
+    <description><![CDATA[<p>Record usd Proxmox VE commands.</p>
+<h2 id="contents" class="headerLink">
+    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
+<li><a href="#import-disk-img" rel="">Import disk img</a></li>
+<li><a href="#rescan-undisplayed-disk" rel="">Add/Rescan undisplayed disk</a></li>
+<li><a href="#passthrough-sata-drivers" rel="">Passthrough sata drivers</a></li>
+<li><a href="#delete-pve-cluster" rel="">Delete PVE cluster</a></li>
+<li><a href="#reinstall-ceph" rel="">Reinstall ceph</a></li>
+<li><a href="#pin-older-kernel" rel="">Pin older kernel</a></li>
+<li><a href="#delete-snapshot-forcedly" rel="">Delete snapshot forcedly</a></li>
+<li><a href="#unlock-virtual-machine" rel="">Unlock virtual machine</a></li>
+<li><a href="#unlock-lxc-container" rel="">Unlock lxc container</a></li>
+</ol>
+<h2 id="import-disk-image" class="headerLink">
+    <a href="#import-disk-image" class="header-mark"></a>2 Import Disk Image</h2><p>Transfer .img disc image file to Virtual Machine(vm) disk.</p>
+<ul>
+<li>The example is to transfer openWRT image file to VM disk.</li>
+</ul>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
     
-    <item>
-      <title>Proxmox changes Sources</title>
-      <link>/posts/proxmox/sources/</link>
-      <pubDate>Sun, 19 Jul 2020 16:52:26 +0800</pubDate>
-      
-      <guid>/posts/proxmox/sources/</guid>
-      <description>The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source。
-Debian Source The Proxmox is based on Debian, thus, we need to change debian sources.</description>
-    </item>
-    
-  </channel>
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>Proxmox changes Sources</title>
+    <link>https://wtpersonal.stream/post/proxmox/sources/sources/</link>
+    <pubDate>Sun, 19 Jul 2020 16:52:26 &#43;0800</pubDate><author>
+        <name>WT</name>
+    </author><guid>https://wtpersonal.stream/post/proxmox/sources/sources/</guid>
+    <description><![CDATA[<p>The official Proxmox provides a enterprise source,
+but we do not need to subscription a enterprise license in home use.
+We only need the free and well-supported community source.
+By the way, we get a limitation download speed from international connect
+(1Mbps approximately) in home use, even I bought 300Mbps download speed plan.
+Thus, need to change system software sources as well.
+It could use <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">Tsinghua mirror</a>, <a href="https://developer.aliyun.com/mirror/" target="_blank" rel="noopener noreferrer">Ali Yun mirror</a>
+and<a href="http://mirrors.ustc.edu.cn/" target="_blank" rel="noopener noreferrer">USTC mirror</a>。</p>]]></description>
+</item></channel>
 </rss>

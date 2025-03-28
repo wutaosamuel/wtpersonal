@@ -1,94 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on WTPersonal</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on WTPersonal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wtpersonal.xyz/&#34;&gt;T. Wu&lt;/a&gt; Powered by &lt;a href=&#34;https://github.com/wangchucheng/hugo-eureka/&#34;&gt;the Eureka&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 24 Nov 2021 16:10:30 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Homeassitant</title>
-      <link>/posts/homeassitant/</link>
-      <pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate>
-      
-      <guid>/posts/homeassitant/</guid>
-      <description>Homeassitant installation by docker docker-compose.yml
-version: &amp;quot;3&amp;quot;services:homeassitant:container_name: homeassistantimage: homeassistant/home-assistantrestart: unless-stoppednetwork_mode: hostprivileged: true# environment:# - https_proxy=http://172.16.8.168:8123volumes:- /root/homeassistant/config:/config- /etc/localtime:/etc/localtime:ro Create and Run docker
-docker-compose up -d HACS installation (Integrations of the community store) If hacs not installed, manually install hacs
-# Go inside the containerdocker exec -it homeassistant bash# Run the hacs download scriptwget -O - https://get.hacs.xyz | bash -# Exit the containerexit Restart homeassistant docker or restart server in Server Controls in Configuration.</description>
-    </item>
-    
-    <item>
-      <title>Collection</title>
-      <link>/posts/memo/collection/</link>
-      <pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate>
-      
-      <guid>/posts/memo/collection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memo</title>
-      <link>/posts/memo/memo/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:46 +0800</pubDate>
-      
-      <guid>/posts/memo/memo/</guid>
-      <description>&amp;mdash;&amp;mdash; Introduction Background Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system. It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet. Therefore, The place where people can acquire knowledge is transferred from library to the internet. That further leads to a massive increase in depth and breadth of knowledge that people have acquired. On the internet, we can find a lot of blogs, articles and notes.</description>
-    </item>
-    
-    <item>
-      <title>Angular</title>
-      <link>/posts/memo/angular/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
-      
-      <guid>/posts/memo/angular/</guid>
-      <description>Contents  Bidirectional data flow between components(@Input &amp;amp; @Output)  Bidirectional data flow between components Sometimes, not work very well. ABANDON  @Input value and @Output valueChange cannot detect value change when child component valueChange emit a value, especially, Multiple inheritance. next, try to use @ViewChild or @ViewChildren  Bidirectional data flow between parent component and child component. It uses @Input and @Output decorates the variables. The more Input and Output details are at official angular guide</description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>/posts/memo/golang/</link>
-      <pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate>
-      
-      <guid>/posts/memo/golang/</guid>
-      <description>Programming Format text string in console display (X)  Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text Consider to try &amp;lsquo;imgui&amp;rsquo;  Network </description>
-    </item>
-    
-    <item>
-      <title>Proxmox Commands</title>
-      <link>/posts/proxmox/command/</link>
-      <pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate>
-      
-      <guid>/posts/proxmox/command/</guid>
-      <description>Record usd Proxmox VE commands.
-Contents  Import disk img Add/Rescan undisplayed disk Passthrough sata drivers Delete PVE cluster Reinstall ceph  Import disk img Transfer .img disc image file to Virtual Machine(vm) disk.
- The example is to transfer openWRT image file to VM disk.  qm importdisk [VM id] [image path] [storage id] Example:
-qm importdisk 100 ./openwrt.img local-lvm Rescan undisplayed disk It would be rescan all disk which belongs to a specific virtual machine.</description>
-    </item>
-    
-    <item>
-      <title>Unix-like System Commands</title>
-      <link>/posts/command/</link>
-      <pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate>
-      
-      <guid>/posts/command/</guid>
-      <description>Record infrequently used but potential useful commands
-Contents  iperf3 - Network speed test qemu - convert images  iperf3 Test network speed between devices. First, open server-side iperf/iperf3 service, then, test it by client-side iperf/iperf3 application. Under windows system, the application is iperf3.exe.
-Open server-side iperf3 service iperf3 -s -p 5201 Open client-side iperf3 service iperf3 -c [ip address] -p 5201 Qemu convert images qemu-img convert -f [format] -O [output format] vm-114-disk-0.qcow2 vm-114-disk-0.</description>
-    </item>
-    
-    <item>
-      <title>Proxmox changes Sources</title>
-      <link>/posts/proxmox/sources/</link>
-      <pubDate>Sun, 19 Jul 2020 16:52:26 +0800</pubDate>
-      
-      <guid>/posts/proxmox/sources/</guid>
-      <description>The official Proxmox provides a enterprise source, but we do not need to subscription a enterprise license in home use. We only need the free and well-supported community source. By the way, we get a limitation download speed from international connect (1Mbps approximately) in home use, even I bought 300Mbps download speed plan. Thus, need to change system software sources as well. It will need Ali Yun source andUSTC source。
-Debian Source The Proxmox is based on Debian, thus, we need to change debian sources.</description>
-    </item>
-    
-  </channel>
-</rss>
