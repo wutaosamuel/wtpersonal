@@ -1,22 +1,11 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>WTPersonal</title>
-        <link>https://wtpersonal.stream/</link>
-        <description>WT&#39;s Personal Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</lastBuildDate>
-            <atom:link href="https://wtpersonal.stream/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Connect to IPV6 network with public-ipv4-only VPS</title>
-    <link>https://wtpersonal.stream/post/gist/rasp-ap/rasp-ap/</link>
-    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/rasp-ap/rasp-ap/</guid>
-    <description><![CDATA[<h2 id="background" class="headerLink">
-    <a href="#background" class="header-mark"></a>1 Background</h2><p>Raspberry Pi OS become AP while connecting to wireless network.</p>
-<h2 id="step" class="headerLink">
-    <a href="#step" class="header-mark"></a>2 Step</h2><ol>
-<li>Install <a href="https://raspap.com/" target="_blank" rel="noopener noreferrer">RaspAP</a> project with</li>
-</ol>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>WTPersonal</title><link>https://wtpersonal.stream/</link><description>WT's Personal Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 00:16:44 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/index.xml" rel="self" type="application/rss+xml"/><item><title>Jenkins</title><link>https://wtpersonal.stream/post/gist/docker/jenkins/jenkins/</link><pubDate>Sun, 04 May 2025 00:16:44 +0800</pubDate><author><name>WT</name></author><guid>https://wtpersonal.stream/post/gist/docker/jenkins/jenkins/</guid><description><![CDATA[<p>The jenkins service run in docker</p>
+<h2 id="note" class="headerLink">
+    <a href="#note" class="header-mark"></a>1 Note</h2><h3 id="user" class="headerLink">
+    <a href="#user" class="header-mark"></a>1.1 User</h3><p>Before I run docker service, I&rsquo;ve already add user USER in host system.
+So, USER is uid=1000 gid=1000 groups=1000, found by <code>id USER</code>.
+And docker group id is 990, run <code>cat /etc/group | grep docker</code>.
+I add USER to docker group.
+To limit root permission for jenkins docker, only allow USER to run service:</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     code-block-title 
@@ -41,14 +30,7 @@
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
 
     <div class="code-block-title-bar tw-w-full">
-      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item><item>
-    <title>Program C functions</title>
-    <link>https://wtpersonal.stream/post/memo/c-function/c-function/</link>
-    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/memo/c-function/c-function/</guid>
-    <description><![CDATA[<p>C related functions</p>
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description></item><item><title>Program C functions</title><link>https://wtpersonal.stream/post/memo/c-function/c-function/</link><pubDate>Thu, 23 Jan 2025 20:29:20 +0800</pubDate><author><name>WT</name></author><guid>https://wtpersonal.stream/post/memo/c-function/c-function/</guid><description><![CDATA[<p>C related functions</p>
 <h2 id="contents" class="headerLink">
     <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
 <li><a href="#assign-string-to-variable" rel="">Assign string to variable</a></li>
@@ -77,23 +59,9 @@
         </tr>
     </tbody>
   </table>
-</div>]]></description>
-</item><item>
-    <title>Proxmox Gist</title>
-    <link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link>
-    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid>
-    <description><![CDATA[<p>There are a few gists for proxmox.</p>
+</div>]]></description></item><item><title>Proxmox Gist</title><link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link><pubDate>Sat, 04 Jan 2025 20:14:00 +0800</pubDate><author><name>WT</name></author><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid><description><![CDATA[<p>There are a few gists for proxmox.</p>
 <h2 id="mount-nfscifs-share-in-unprivileged-lxc-containers" class="headerLink">
-    <a href="#mount-nfscifs-share-in-unprivileged-lxc-containers" class="header-mark"></a>1 Mount NFS/CIFS share in Unprivileged LXC containers</h2><p><a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">Tutorial</a></p>]]></description>
-</item><item>
-    <title>Connect to IPV6 network with public-ipv4-only VPS</title>
-    <link>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</link>
-    <pubDate>Sat, 21 Dec 2024 00:01:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</guid>
-    <description><![CDATA[<h2 id="background" class="headerLink">
+    <a href="#mount-nfscifs-share-in-unprivileged-lxc-containers" class="header-mark"></a>1 Mount NFS/CIFS share in Unprivileged LXC containers</h2><p><a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">Tutorial</a></p>]]></description></item><item><title>Connect to IPV6 network with public-ipv4-only VPS</title><link>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</link><pubDate>Sat, 21 Dec 2024 00:01:00 +0800</pubDate><author><name>WT</name></author><guid>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</guid><description><![CDATA[<h2 id="background" class="headerLink">
     <a href="#background" class="header-mark"></a>1 Background</h2><p>There are many cloud service providers only sell public-ipv4-only virtual machines. But, for some reasons, having ipv6 support could make things easier. In this case, we&rsquo;ll use ipv4 to ipv6 tunnel to connect to ipv6 network.</p>
 <h2 id="step" class="headerLink">
     <a href="#step" class="header-mark"></a>2 Step</h2><ol>
@@ -121,14 +89,7 @@
 Sh: <code>crontab -l 2&gt;/dev/null | echo &quot;*/10 * * * * ping -c 2 ipv6.google.com&quot; | crontab -</code></li>
 </ul>
 </li>
-</ol>]]></description>
-</item><item>
-    <title>Docker IPV6 Setup</title>
-    <link>https://wtpersonal.stream/post/gist/docker/docker/</link>
-    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/docker/docker/</guid>
-    <description><![CDATA[<p>Allow docker to use IPV6 network.</p>
+</ol>]]></description></item><item><title>Docker IPV6 Setup</title><link>https://wtpersonal.stream/post/gist/docker/docker/</link><pubDate>Wed, 13 Nov 2024 00:10:00 +0800</pubDate><author><name>WT</name></author><guid>https://wtpersonal.stream/post/gist/docker/docker/</guid><description><![CDATA[<p>Allow docker to use IPV6 network.</p>
 <p>This solution is not working in my network that parent router may have firewall that make my device unable to get connection automatically,
 details checkout to <a href="./ipv6.en.md" rel="">my ipv6 network issue</a></p>
 <h2 id="check-docker-ipv6-is-enabled" class="headerLink">
@@ -157,6 +118,4 @@ details checkout to <a href="./ipv6.en.md" rel="">my ipv6 network issue</a></p>
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
 
     <div class="code-block-title-bar tw-w-full">
-      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item></channel>
-</rss>
+      <p class="tw-select-none !tw-my-1">bash</p>]]></description></item></channel></rss>

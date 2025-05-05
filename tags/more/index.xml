@@ -1,311 +1,255 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>More - Tag - WTPersonal</title>
-        <link>https://wtpersonal.stream/tags/more/</link>
-        <description>More - Tag - WTPersonal</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/more/" rel="self" type="application/rss+xml" /><item>
-    <title>Connect to IPV6 network with public-ipv4-only VPS</title>
-    <link>https://wtpersonal.stream/post/gist/rasp-ap/rasp-ap/</link>
-    <pubDate>Sun, 16 Mar 2025 23:41:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/rasp-ap/rasp-ap/</guid>
-    <description><![CDATA[<h2 id="background" class="headerLink">
-    <a href="#background" class="header-mark"></a>1 Background</h2><p>Raspberry Pi OS become AP while connecting to wireless network.</p>
-<h2 id="step" class="headerLink">
-    <a href="#step" class="header-mark"></a>2 Step</h2><ol>
-<li>Install <a href="https://raspap.com/" target="_blank" rel="noopener noreferrer">RaspAP</a> project with</li>
-</ol>
-<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
-  <div class="
-    code-block-title 
-    
-    tw-flex 
-    tw-flex-row 
-    tw-justify-between 
-    tw-w-full tw-bg-bgColor-secondary
-    ">      
-    <button 
-      class="
-        tw-select-none 
-        tw-mx-2 
-        tw-block
-        group-[.is-open]:tw-rotate-90
-        tw-transition-[transform] 
-        tw-duration-500 
-        tw-ease-in-out
-        print:!tw-hidden"
-      disabled
-      aria-hidden="true"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>More on WTPersonal</title><link>https://wtpersonal.stream/tags/more/</link><description>Recent content in More on WTPersonal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 00:16:44 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/more/index.xml" rel="self" type="application/rss+xml"/><item><title>Jenkins</title><link>https://wtpersonal.stream/post/gist/docker/jenkins/jenkins/</link><pubDate>Sun, 04 May 2025 00:16:44 +0800</pubDate><guid>https://wtpersonal.stream/post/gist/docker/jenkins/jenkins/</guid><description>&lt;p>The jenkins service run in docker&lt;/p>
+&lt;h2 id="note" class="headerLink">
+ &lt;a href="#note" class="header-mark">&lt;/a>1 Note&lt;/h2>&lt;h3 id="user" class="headerLink">
+ &lt;a href="#user" class="header-mark">&lt;/a>1.1 User&lt;/h3>&lt;p>Before I run docker service, I&amp;rsquo;ve already add user USER in host system.
+So, USER is uid=1000 gid=1000 groups=1000, found by &lt;code>id USER&lt;/code>.
+And docker group id is 990, run &lt;code>cat /etc/group | grep docker&lt;/code>.
+I add USER to docker group.
+To limit root permission for jenkins docker, only allow USER to run service:&lt;/p>
+&lt;div class="code-block highlight is-open show-line-numbers tw-group tw-my-2">
+ &lt;div class="
+ code-block-title 
+ 
+ tw-flex 
+ tw-flex-row 
+ tw-justify-between 
+ tw-w-full tw-bg-bgColor-secondary
+ "> 
+ &lt;button 
+ class="
+ tw-select-none 
+ tw-mx-2 
+ tw-block
+ group-[.is-open]:tw-rotate-90
+ tw-transition-[transform] 
+ tw-duration-500 
+ tw-ease-in-out
+ print:!tw-hidden"
+ disabled
+ aria-hidden="true">&lt;svg class="icon"
+ xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">&lt;!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->&lt;path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>&lt;/svg>&lt;/button>
 
-    <div class="code-block-title-bar tw-w-full">
-      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item><item>
-    <title>Program C functions</title>
-    <link>https://wtpersonal.stream/post/memo/c-function/c-function/</link>
-    <pubDate>Thu, 23 Jan 2025 20:29:20 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/memo/c-function/c-function/</guid>
-    <description><![CDATA[<p>C related functions</p>
-<h2 id="contents" class="headerLink">
-    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
-<li><a href="#assign-string-to-variable" rel="">Assign string to variable</a></li>
-</ol>
-<h2 id="assign-string-to-variable" class="headerLink">
-    <a href="#assign-string-to-variable" class="header-mark"></a>2 Assign string to variable</h2>
-<div class="table-wrapper">
-  <table>
-    <thead>
-        <tr>
-            <th style="text-align: ">Func</th>
-            <th style="text-align: ">Header</th>
-            <th style="text-align: ">Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="text-align: ">sprintf</td>
-            <td style="text-align: ">string.h</td>
-            <td style="text-align: ">assign format string to variable. sprintf(str, &ldquo;%s %s\n&rdquo;, s1, s2)</td>
-        </tr>
-        <tr>
-            <td style="text-align: ">strncpy</td>
-            <td style="text-align: ">string.h</td>
-            <td style="text-align: ">copy string from a variable to another. strncpy(str, source, length)</td>
-        </tr>
-    </tbody>
-  </table>
-</div>]]></description>
-</item><item>
-    <title>Proxmox Gist</title>
-    <link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link>
-    <pubDate>Sat, 04 Jan 2025 20:14:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid>
-    <description><![CDATA[<p>There are a few gists for proxmox.</p>
-<h2 id="mount-nfscifs-share-in-unprivileged-lxc-containers" class="headerLink">
-    <a href="#mount-nfscifs-share-in-unprivileged-lxc-containers" class="header-mark"></a>1 Mount NFS/CIFS share in Unprivileged LXC containers</h2><p><a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">Tutorial</a></p>]]></description>
-</item><item>
-    <title>Connect to IPV6 network with public-ipv4-only VPS</title>
-    <link>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</link>
-    <pubDate>Sat, 21 Dec 2024 00:01:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</guid>
-    <description><![CDATA[<h2 id="background" class="headerLink">
-    <a href="#background" class="header-mark"></a>1 Background</h2><p>There are many cloud service providers only sell public-ipv4-only virtual machines. But, for some reasons, having ipv6 support could make things easier. In this case, we&rsquo;ll use ipv4 to ipv6 tunnel to connect to ipv6 network.</p>
-<h2 id="step" class="headerLink">
-    <a href="#step" class="header-mark"></a>2 Step</h2><ol>
-<li>register in <a href="https://tunnelbroker.net" target="_blank" rel="noopener noreferrer">HE.net tunnel broker</a> for free to use ipv4ToIpv6 tunnel service
+ &lt;div class="code-block-title-bar tw-w-full">
+ &lt;p class="tw-select-none !tw-my-1">bash&lt;/p></description></item><item><title>Program C functions</title><link>https://wtpersonal.stream/post/memo/c-function/c-function/</link><pubDate>Thu, 23 Jan 2025 20:29:20 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/c-function/c-function/</guid><description>&lt;p>C related functions&lt;/p>
+&lt;h2 id="contents" class="headerLink">
+ &lt;a href="#contents" class="header-mark">&lt;/a>1 Contents&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="#assign-string-to-variable" rel="">Assign string to variable&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="assign-string-to-variable" class="headerLink">
+ &lt;a href="#assign-string-to-variable" class="header-mark">&lt;/a>2 Assign string to variable&lt;/h2>
+&lt;div class="table-wrapper">
+ &lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: ">Func&lt;/th>
+ &lt;th style="text-align: ">Header&lt;/th>
+ &lt;th style="text-align: ">Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: ">sprintf&lt;/td>
+ &lt;td style="text-align: ">string.h&lt;/td>
+ &lt;td style="text-align: ">assign format string to variable. sprintf(str, &amp;ldquo;%s %s\n&amp;rdquo;, s1, s2)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: ">strncpy&lt;/td>
+ &lt;td style="text-align: ">string.h&lt;/td>
+ &lt;td style="text-align: ">copy string from a variable to another. strncpy(str, source, length)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+ &lt;/table>
+&lt;/div></description></item><item><title>Proxmox Gist</title><link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link><pubDate>Sat, 04 Jan 2025 20:14:00 +0800</pubDate><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid><description>&lt;p>There are a few gists for proxmox.&lt;/p>
+&lt;h2 id="mount-nfscifs-share-in-unprivileged-lxc-containers" class="headerLink">
+ &lt;a href="#mount-nfscifs-share-in-unprivileged-lxc-containers" class="header-mark">&lt;/a>1 Mount NFS/CIFS share in Unprivileged LXC containers&lt;/h2>&lt;p>&lt;a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">Tutorial&lt;/a>&lt;/p></description></item><item><title>Connect to IPV6 network with public-ipv4-only VPS</title><link>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</link><pubDate>Sat, 21 Dec 2024 00:01:00 +0800</pubDate><guid>https://wtpersonal.stream/post/gist/vps-ipv6/vps-ipv6/</guid><description>&lt;h2 id="background" class="headerLink">
+ &lt;a href="#background" class="header-mark">&lt;/a>1 Background&lt;/h2>&lt;p>There are many cloud service providers only sell public-ipv4-only virtual machines. But, for some reasons, having ipv6 support could make things easier. In this case, we&amp;rsquo;ll use ipv4 to ipv6 tunnel to connect to ipv6 network.&lt;/p>
+&lt;h2 id="step" class="headerLink">
+ &lt;a href="#step" class="header-mark">&lt;/a>2 Step&lt;/h2>&lt;ol>
+&lt;li>register in &lt;a href="https://tunnelbroker.net" target="_blank" rel="noopener noreferrer">HE.net tunnel broker&lt;/a> for free to use ipv4ToIpv6 tunnel service
 1.1. create tunnel
-1.2. configure ipv6 tunnel on virtual machine through its example configurations.</li>
-<li>waiting until it is ready</li>
-</ol>
-<h2 id="ipv6-tunnel-problem" class="headerLink">
-    <a href="#ipv6-tunnel-problem" class="header-mark"></a>3 IPV6 tunnel problem</h2><ol>
-<li>He.net unable to register by gmail and outlook.
-<ul>
-<li>Solution: it works with 163, registered at 2024-12-21.</li>
-</ul>
-</li>
-<li>He.net cannot create ipv6 tunnel, caused by &ldquo;This network is restricted&rdquo;
-<ul>
-<li>Possible reason: He.net block target ip address</li>
-<li>Solution: create tunnel with valid ipv4 address. Then, switch to blocked ip address, created at 2024-12-21</li>
-</ul>
-</li>
-<li>He.net tunnel will close due to inactivity for a certain time.
-<ul>
-<li>Solution: ping a ipv6 website periodically every 10 minutes.
-Sh: <code>crontab -l 2&gt;/dev/null | echo &quot;*/10 * * * * ping -c 2 ipv6.google.com&quot; | crontab -</code></li>
-</ul>
-</li>
-</ol>]]></description>
-</item><item>
-    <title>Docker IPV6 Setup</title>
-    <link>https://wtpersonal.stream/post/gist/docker/docker/</link>
-    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/docker/docker/</guid>
-    <description><![CDATA[<p>Allow docker to use IPV6 network.</p>
-<p>This solution is not working in my network that parent router may have firewall that make my device unable to get connection automatically,
-details checkout to <a href="./ipv6.en.md" rel="">my ipv6 network issue</a></p>
-<h2 id="check-docker-ipv6-is-enabled" class="headerLink">
-    <a href="#check-docker-ipv6-is-enabled" class="header-mark"></a>1 Check docker IPV6 is enabled</h2><h2 id="get-ipv6-address-range-in-host" class="headerLink">
-    <a href="#get-ipv6-address-range-in-host" class="header-mark"></a>2 Get ipv6 address range in host</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
-  <div class="
-    code-block-title 
-    
-    tw-flex 
-    tw-flex-row 
-    tw-justify-between 
-    tw-w-full tw-bg-bgColor-secondary
-    ">      
-    <button 
-      class="
-        tw-select-none 
-        tw-mx-2 
-        tw-block
-        group-[.is-open]:tw-rotate-90
-        tw-transition-[transform] 
-        tw-duration-500 
-        tw-ease-in-out
-        print:!tw-hidden"
-      disabled
-      aria-hidden="true"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+1.2. configure ipv6 tunnel on virtual machine through its example configurations.&lt;/li>
+&lt;li>waiting until it is ready&lt;/li>
+&lt;/ol>
+&lt;h2 id="ipv6-tunnel-problem" class="headerLink">
+ &lt;a href="#ipv6-tunnel-problem" class="header-mark">&lt;/a>3 IPV6 tunnel problem&lt;/h2>&lt;ol>
+&lt;li>He.net unable to register by gmail and outlook.
+&lt;ul>
+&lt;li>Solution: it works with 163, registered at 2024-12-21.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>He.net cannot create ipv6 tunnel, caused by &amp;ldquo;This network is restricted&amp;rdquo;
+&lt;ul>
+&lt;li>Possible reason: He.net block target ip address&lt;/li>
+&lt;li>Solution: create tunnel with valid ipv4 address. Then, switch to blocked ip address, created at 2024-12-21&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>He.net tunnel will close due to inactivity for a certain time.
+&lt;ul>
+&lt;li>Solution: ping a ipv6 website periodically every 10 minutes.
+Sh: &lt;code>crontab -l 2&amp;gt;/dev/null | echo &amp;quot;*/10 * * * * ping -c 2 ipv6.google.com&amp;quot; | crontab -&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docker IPV6 Setup</title><link>https://wtpersonal.stream/post/gist/docker/docker/</link><pubDate>Wed, 13 Nov 2024 00:10:00 +0800</pubDate><guid>https://wtpersonal.stream/post/gist/docker/docker/</guid><description>&lt;p>Allow docker to use IPV6 network.&lt;/p>
+&lt;p>This solution is not working in my network that parent router may have firewall that make my device unable to get connection automatically,
+details checkout to &lt;a href="./ipv6.en.md" rel="">my ipv6 network issue&lt;/a>&lt;/p>
+&lt;h2 id="check-docker-ipv6-is-enabled" class="headerLink">
+ &lt;a href="#check-docker-ipv6-is-enabled" class="header-mark">&lt;/a>1 Check docker IPV6 is enabled&lt;/h2>&lt;h2 id="get-ipv6-address-range-in-host" class="headerLink">
+ &lt;a href="#get-ipv6-address-range-in-host" class="header-mark">&lt;/a>2 Get ipv6 address range in host&lt;/h2>&lt;div class="code-block highlight is-open show-line-numbers tw-group tw-my-2">
+ &lt;div class="
+ code-block-title 
+ 
+ tw-flex 
+ tw-flex-row 
+ tw-justify-between 
+ tw-w-full tw-bg-bgColor-secondary
+ "> 
+ &lt;button 
+ class="
+ tw-select-none 
+ tw-mx-2 
+ tw-block
+ group-[.is-open]:tw-rotate-90
+ tw-transition-[transform] 
+ tw-duration-500 
+ tw-ease-in-out
+ print:!tw-hidden"
+ disabled
+ aria-hidden="true">&lt;svg class="icon"
+ xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">&lt;!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->&lt;path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>&lt;/svg>&lt;/button>
 
-    <div class="code-block-title-bar tw-w-full">
-      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item><item>
-    <title>OpenWRT IPV6 Setup</title>
-    <link>https://wtpersonal.stream/post/gist/ipv6/ipv6/</link>
-    <pubDate>Wed, 13 Nov 2024 00:10:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/gist/ipv6/ipv6/</guid>
-    <description><![CDATA[<p>TODO: Add ipv6 setting up for home network</p>
-<p>Enable IPV6 connection in OpenWRT.</p>
-<h2 id="ipv6-network" class="headerLink">
-    <a href="#ipv6-network" class="header-mark"></a>1 IPV6 network</h2><ol>
-<li>ipv6 relay mode if router does not been assigned ipv6 address with prefix delegation.</li>
-<li>ipv6 server mode if router has ipv6 address with prefix delegation.</li>
-</ol>
-<h2 id="ipv6-problem-in-relay-mode" class="headerLink">
-    <a href="#ipv6-problem-in-relay-mode" class="header-mark"></a>2 IPV6 problem in relay mode</h2><ol>
-<li>if upstream router has wrong settings that cause all clients cannot be assigned ipv6 address.
+ &lt;div class="code-block-title-bar tw-w-full">
+ &lt;p class="tw-select-none !tw-my-1">bash&lt;/p></description></item><item><title>OpenWRT IPV6 Setup</title><link>https://wtpersonal.stream/post/gist/ipv6/ipv6/</link><pubDate>Wed, 13 Nov 2024 00:10:00 +0800</pubDate><guid>https://wtpersonal.stream/post/gist/ipv6/ipv6/</guid><description>&lt;p>TODO: Add ipv6 setting up for home network&lt;/p>
+&lt;p>Enable IPV6 connection in OpenWRT.&lt;/p>
+&lt;h2 id="ipv6-network" class="headerLink">
+ &lt;a href="#ipv6-network" class="header-mark">&lt;/a>1 IPV6 network&lt;/h2>&lt;ol>
+&lt;li>ipv6 relay mode if router does not been assigned ipv6 address with prefix delegation.&lt;/li>
+&lt;li>ipv6 server mode if router has ipv6 address with prefix delegation.&lt;/li>
+&lt;/ol>
+&lt;h2 id="ipv6-problem-in-relay-mode" class="headerLink">
+ &lt;a href="#ipv6-problem-in-relay-mode" class="header-mark">&lt;/a>2 IPV6 problem in relay mode&lt;/h2>&lt;ol>
+&lt;li>if upstream router has wrong settings that cause all clients cannot be assigned ipv6 address.
 It requires client to ping the router for getting ipv6 address.
-<ul>
-<li>TODO: add keywords for searching the solutions</li>
-</ul>
-</li>
-<li>connection problem if router sets learn routes in v24.01
-<ul>
-<li>disable learn routes in WAN interface</li>
-<li>disable learn routes in LAN interface</li>
-</ul>
-</li>
-</ol>]]></description>
-</item><item>
-    <title>Yubikey and backup yubikey used as Smart Card with GnuPG</title>
-    <link>https://wtpersonal.stream/post/common/yubikey-gnupg/yubikey-gnupg/</link>
-    <pubDate>Mon, 15 Apr 2024 11:00:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/common/yubikey-gnupg/yubikey-gnupg/</guid>
-    <description><![CDATA[<h2 id="install-software" class="headerLink">
-    <a href="#install-software" class="header-mark"></a>1 Install Software</h2><h3 id="ubuntu" class="headerLink">
-    <a href="#ubuntu" class="header-mark"></a>1.1 Ubuntu</h3><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
-  <div class="
-    code-block-title 
-    
-    tw-flex 
-    tw-flex-row 
-    tw-justify-between 
-    tw-w-full tw-bg-bgColor-secondary
-    ">      
-    <button 
-      class="
-        tw-select-none 
-        tw-mx-2 
-        tw-block
-        group-[.is-open]:tw-rotate-90
-        tw-transition-[transform] 
-        tw-duration-500 
-        tw-ease-in-out
-        print:!tw-hidden"
-      disabled
-      aria-hidden="true"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
-
-    <div class="code-block-title-bar tw-w-full">
-      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item><item>
-    <title>Plex</title>
-    <link>https://wtpersonal.stream/post/docker/plex/plex/</link>
-    <pubDate>Thu, 09 Jun 2022 16:05:00 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/docker/plex/plex/</guid>
-    <description><![CDATA[<h2 id="create-configuration-folders" class="headerLink">
-    <a href="#create-configuration-folders" class="header-mark"></a>1 Create configuration folders</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
-  <div class="
-    code-block-title 
-    
-    tw-flex 
-    tw-flex-row 
-    tw-justify-between 
-    tw-w-full tw-bg-bgColor-secondary
-    ">      
-    <button 
-      class="
-        tw-select-none 
-        tw-mx-2 
-        tw-block
-        group-[.is-open]:tw-rotate-90
-        tw-transition-[transform] 
-        tw-duration-500 
-        tw-ease-in-out
-        print:!tw-hidden"
-      disabled
-      aria-hidden="true"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
-
-    <div class="code-block-title-bar tw-w-full">
-      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item><item>
-    <title>Nginx Proxy Manager</title>
-    <link>https://wtpersonal.stream/post/docker/nginx-proxy-manager/nginx-proxy-manager/</link>
-    <pubDate>Sun, 29 May 2022 12:43:50 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/docker/nginx-proxy-manager/nginx-proxy-manager/</guid>
-    <description><![CDATA[<p>Nginx Proxy Manager</p>
-<h2 id="contents" class="headerLink">
-    <a href="#contents" class="header-mark"></a>1 Contents</h2><ul>
-<li><a href="#self-signed-certificate" rel="">Self Signed Certificate</a></li>
-<li><a href="#cloudflare-certificate" rel="">Cloudflare Certificate</a></li>
-</ul>
-<h2 id="install" class="headerLink">
-    <a href="#install" class="header-mark"></a>2 Install</h2><ul>
-<li>create data and configure folders</li>
-</ul>
-<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
-  <div class="
-    code-block-title 
-    
-    tw-flex 
-    tw-flex-row 
-    tw-justify-between 
-    tw-w-full tw-bg-bgColor-secondary
-    ">      
-    <button 
-      class="
-        tw-select-none 
-        tw-mx-2 
-        tw-block
-        group-[.is-open]:tw-rotate-90
-        tw-transition-[transform] 
-        tw-duration-500 
-        tw-ease-in-out
-        print:!tw-hidden"
-      disabled
-      aria-hidden="true"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
-
-    <div class="code-block-title-bar tw-w-full">
-      <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item><item>
-    <title>OpenWRT</title>
-    <link>https://wtpersonal.stream/post/memo/openwrt/openwrt/</link>
-    <pubDate>Sat, 28 May 2022 17:52:50 &#43;0800</pubDate><author>
-        <name>WT</name>
-    </author><guid>https://wtpersonal.stream/post/memo/openwrt/openwrt/</guid>
-    <description><![CDATA[<p>OpenWRT</p>
-<h2 id="contents" class="headerLink">
-    <a href="#contents" class="header-mark"></a>1 Contents</h2><ol>
-<li><a href="#wildcard-domain-&amp;-subdomain" rel="">Wildcard Domain&amp;Subdomain</a></li>
-</ol>
-<h2 id="wildcard-domain--subdomain" class="headerLink">
-    <a href="#wildcard-domain--subdomain" class="header-mark"></a>2 Wildcard Domain &amp; Subdomain</h2><h3 id="introduction" class="headerLink">
-    <a href="#introduction" class="header-mark"></a>2.1 Introduction</h3><p>The IP address can be fixed manually in <strong>Network -&gt; DHCP and DNS -&gt; Static Leases</strong>.
+&lt;ul>
+&lt;li>TODO: add keywords for searching the solutions&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>connection problem if router sets learn routes in v24.01
+&lt;ul>
+&lt;li>disable learn routes in WAN interface&lt;/li>
+&lt;li>disable learn routes in LAN interface&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item><item><title>OpenWRT</title><link>https://wtpersonal.stream/post/memo/openwrt/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/openwrt/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
+&lt;h2 id="contents" class="headerLink">
+ &lt;a href="#contents" class="header-mark">&lt;/a>1 Contents&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="#wildcard-domain-&amp;amp;-subdomain" rel="">Wildcard Domain&amp;amp;Subdomain&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="wildcard-domain--subdomain" class="headerLink">
+ &lt;a href="#wildcard-domain--subdomain" class="header-mark">&lt;/a>2 Wildcard Domain &amp;amp; Subdomain&lt;/h2>&lt;h3 id="introduction" class="headerLink">
+ &lt;a href="#introduction" class="header-mark">&lt;/a>2.1 Introduction&lt;/h3>&lt;p>The IP address can be fixed manually in &lt;strong>Network -&amp;gt; DHCP and DNS -&amp;gt; Static Leases&lt;/strong>.
 The default local domain will be automatically allocated by hostname.
-For instance, <strong>ubuntuNginx.lan</strong> is the local domain of <strong>ubuntuNginx</strong> machine.</p>
-<p>However, if I want to all sub-domains pointing to a ip address, it has to add hostnames into <strong>Network -&gt; Hostnames</strong> with every sub-domain manually.</p>]]></description>
-</item></channel>
-</rss>
+For instance, &lt;strong>ubuntuNginx.lan&lt;/strong> is the local domain of &lt;strong>ubuntuNginx&lt;/strong> machine.&lt;/p>
+&lt;p>However, if I want to all sub-domains pointing to a ip address, it has to add hostnames into &lt;strong>Network -&amp;gt; Hostnames&lt;/strong> with every sub-domain manually.&lt;/p></description></item><item><title>Windows Commands</title><link>https://wtpersonal.stream/post/memo/windows-cmd/windows-cmd/</link><pubDate>Fri, 17 Dec 2021 23:00:20 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/windows-cmd/windows-cmd/</guid><description>&lt;p>Record infrequently used but potential useful windows commands&lt;/p>
+&lt;h2 id="contents" class="headerLink">
+ &lt;a href="#contents" class="header-mark">&lt;/a>1 Contents&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="#Shutdown-in-schedule" rel="">Shutdown in Schedule&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="shutdown-in-schedule" class="headerLink">
+ &lt;a href="#shutdown-in-schedule" class="header-mark">&lt;/a>2 Shutdown in schedule&lt;/h2>&lt;p>shut windows down by time in second&lt;/p>
+&lt;div class="code-block highlight is-open show-line-numbers tw-group tw-my-2">
+ &lt;div class="
+ code-block-title 
+ 
+ tw-flex 
+ tw-flex-row 
+ tw-justify-between 
+ tw-w-full tw-bg-bgColor-secondary
+ "> 
+ &lt;button 
+ class="
+ tw-select-none 
+ tw-mx-2 
+ tw-block
+ group-[.is-open]:tw-rotate-90
+ tw-transition-[transform] 
+ tw-duration-500 
+ tw-ease-in-out
+ print:!tw-hidden"
+ disabled
+ aria-hidden="true">&lt;svg class="icon"
+ xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">&lt;!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->&lt;path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>&lt;/svg>&lt;/button>
+
+ &lt;div class="code-block-title-bar tw-w-full">
+ &lt;p class="tw-select-none !tw-my-1">bash&lt;/p></description></item><item><title>Homeassitant</title><link>https://wtpersonal.stream/post/docker/homeassitant/homeassitant/</link><pubDate>Wed, 24 Nov 2021 16:10:30 +0800</pubDate><guid>https://wtpersonal.stream/post/docker/homeassitant/homeassitant/</guid><description>&lt;h2 id="homeassitant-installation-by-docker" class="headerLink">
+ &lt;a href="#homeassitant-installation-by-docker" class="header-mark">&lt;/a>1 Homeassitant installation by docker&lt;/h2>&lt;p>docker-compose.yml&lt;/p>
+&lt;div class="code-block highlight is-closed show-line-numbers tw-group tw-my-2">
+ &lt;div class="
+ code-block-title 
+ 
+ tw-flex 
+ tw-flex-row 
+ tw-justify-between 
+ tw-w-full tw-bg-bgColor-secondary
+ "> 
+ &lt;button 
+ class="
+ tw-select-none 
+ tw-mx-2 
+ tw-block
+ group-[.is-open]:tw-rotate-90
+ tw-transition-[transform] 
+ tw-duration-500 
+ tw-ease-in-out
+ print:!tw-hidden"
+ disabled
+ aria-hidden="true">&lt;svg class="icon"
+ xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">&lt;!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->&lt;path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>&lt;/svg>&lt;/button>
+
+ &lt;div class="code-block-title-bar tw-w-full">
+ &lt;p class="tw-select-none !tw-my-1">yml&lt;/p></description></item><item><title>Golang</title><link>https://wtpersonal.stream/post/memo/golang/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/golang/golang/</guid><description>&lt;h2 id="programming" class="headerLink">
+ &lt;a href="#programming" class="header-mark">&lt;/a>1 Programming&lt;/h2>&lt;h3 id="format-text-string-in-console-display-x" class="headerLink">
+ &lt;a href="#format-text-string-in-console-display-x" class="header-mark">&lt;/a>1.1 Format text string in console display (X)&lt;/h3>&lt;ul>
+&lt;li>Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text&lt;/li>
+&lt;li>Consider to try &amp;lsquo;imgui&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;h2 id="network" class="headerLink">
+ &lt;a href="#network" class="header-mark">&lt;/a>2 Network&lt;/h2></description></item><item><title>Unix-like System Commands</title><link>https://wtpersonal.stream/post/memo/command/command/</link><pubDate>Tue, 27 Oct 2020 23:00:20 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/command/command/</guid><description>&lt;p>Record infrequently used but potential useful commands&lt;/p>
+&lt;h2 id="contents" class="headerLink">
+ &lt;a href="#contents" class="header-mark">&lt;/a>1 Contents&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="#iperf3" rel="">iperf3 - Network speed test&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#qemu-convert-images" rel="">qemu - convert images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#base64-encode-and-decode" rel="">base64 - encode &amp;amp; decode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#macos-check-ssd-health" rel="">smartctl - check macos ssd health&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#git-crypt" rel="">git-crypt - transparent file encryption in git&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="iperf3" class="headerLink">
+ &lt;a href="#iperf3" class="header-mark">&lt;/a>2 iperf3&lt;/h2>&lt;p>Test network speed between devices.
+First, open server-side iperf/iperf3 service,
+then, test it by client-side iperf/iperf3 application.
+Under windows system, the application is iperf3.exe.&lt;/p>
+&lt;h3 id="open-server-side-iperf3-service" class="headerLink">
+ &lt;a href="#open-server-side-iperf3-service" class="header-mark">&lt;/a>2.1 Open server-side iperf3 service&lt;/h3>&lt;div class="code-block highlight is-open show-line-numbers tw-group tw-my-2">
+ &lt;div class="
+ code-block-title 
+ 
+ tw-flex 
+ tw-flex-row 
+ tw-justify-between 
+ tw-w-full tw-bg-bgColor-secondary
+ "> 
+ &lt;button 
+ class="
+ tw-select-none 
+ tw-mx-2 
+ tw-block
+ group-[.is-open]:tw-rotate-90
+ tw-transition-[transform] 
+ tw-duration-500 
+ tw-ease-in-out
+ print:!tw-hidden"
+ disabled
+ aria-hidden="true">&lt;svg class="icon"
+ xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">&lt;!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->&lt;path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>&lt;/svg>&lt;/button>
+
+ &lt;div class="code-block-title-bar tw-w-full">
+ &lt;p class="tw-select-none !tw-my-1">bash&lt;/p></description></item></channel></rss>
