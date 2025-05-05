@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C on WTPersonal</title><link>https://wtpersonal.stream/categories/c/</link><description>Recent content in C on WTPersonal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 23 Jan 2025 20:29:20 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/categories/c/index.xml" rel="self" type="application/rss+xml"/><item><title>Program C functions</title><link>https://wtpersonal.stream/post/memo/c-function/c-function/</link><pubDate>Thu, 23 Jan 2025 20:29:20 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/c-function/c-function/</guid><description>&lt;p>C related functions&lt;/p>
 &lt;h2 id="contents" class="headerLink">
- &lt;a href="#contents" class="header-mark">&lt;/a>1 Contents&lt;/h2>&lt;ol>
+ &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="#assign-string-to-variable" rel="">Assign string to variable&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;h2 id="assign-string-to-variable" class="headerLink">
- &lt;a href="#assign-string-to-variable" class="header-mark">&lt;/a>2 Assign string to variable&lt;/h2>
+ &lt;a href="#assign-string-to-variable" class="header-mark">&lt;/a>Assign string to variable&lt;/h2>
 &lt;div class="table-wrapper">
  &lt;table>
  &lt;thead>

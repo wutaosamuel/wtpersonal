@@ -1,48 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proxmox on WTPersonal</title><link>https://wtpersonal.stream/tags/proxmox/</link><description>Recent content in Proxmox on WTPersonal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 04 Jan 2025 20:14:00 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/proxmox/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox Gist</title><link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link><pubDate>Sat, 04 Jan 2025 20:14:00 +0800</pubDate><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid><description>&lt;p>There are a few gists for proxmox.&lt;/p>
-&lt;h2 id="mount-nfscifs-share-in-unprivileged-lxc-containers" class="headerLink">
- &lt;a href="#mount-nfscifs-share-in-unprivileged-lxc-containers" class="header-mark">&lt;/a>1 Mount NFS/CIFS share in Unprivileged LXC containers&lt;/h2>&lt;p>&lt;a href="https://forum.proxmox.com/threads/tutorial-unprivileged-lxcs-mount-cifs-shares.101795/" target="_blank" rel="noopener noreferrer">Tutorial&lt;/a>&lt;/p></description></item><item><title>Proxmox Commands</title><link>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</link><pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate><guid>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</guid><description>&lt;p>Record usd Proxmox VE commands.&lt;/p>
-&lt;h2 id="contents" class="headerLink">
- &lt;a href="#contents" class="header-mark">&lt;/a>1 Contents&lt;/h2>&lt;ol>
-&lt;li>&lt;a href="#import-disk-img" rel="">Import disk img&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#rescan-undisplayed-disk" rel="">Add/Rescan undisplayed disk&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#passthrough-sata-drivers" rel="">Passthrough sata drivers&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#delete-pve-cluster" rel="">Delete PVE cluster&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#reinstall-ceph" rel="">Reinstall ceph&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#pin-older-kernel" rel="">Pin older kernel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#delete-snapshot-forcedly" rel="">Delete snapshot forcedly&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#unlock-virtual-machine" rel="">Unlock virtual machine&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#unlock-lxc-container" rel="">Unlock lxc container&lt;/a>&lt;/li>
-&lt;/ol>
-&lt;h2 id="import-disk-image" class="headerLink">
- &lt;a href="#import-disk-image" class="header-mark">&lt;/a>2 Import Disk Image&lt;/h2>&lt;p>Transfer .img disc image file to Virtual Machine(vm) disk.&lt;/p>
-&lt;ul>
-&lt;li>The example is to transfer openWRT image file to VM disk.&lt;/li>
-&lt;/ul>
-&lt;div class="code-block highlight is-open show-line-numbers tw-group tw-my-2">
- &lt;div class="
- code-block-title 
- 
- tw-flex 
- tw-flex-row 
- tw-justify-between 
- tw-w-full tw-bg-bgColor-secondary
- "> 
- &lt;button 
- class="
- tw-select-none 
- tw-mx-2 
- tw-block
- group-[.is-open]:tw-rotate-90
- tw-transition-[transform] 
- tw-duration-500 
- tw-ease-in-out
- print:!tw-hidden"
- disabled
- aria-hidden="true">&lt;svg class="icon"
- xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">&lt;!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->&lt;path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>&lt;/svg>&lt;/button>
-
- &lt;div class="code-block-title-bar tw-w-full">
- &lt;p class="tw-select-none !tw-my-1">bash&lt;/p></description></item><item><title>Proxmox changes Sources</title><link>https://wtpersonal.stream/post/proxmox/sources/sources/</link><pubDate>Sun, 19 Jul 2020 16:52:26 +0800</pubDate><guid>https://wtpersonal.stream/post/proxmox/sources/sources/</guid><description>&lt;p>The official Proxmox provides a enterprise source,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proxmox on WTPersonal</title><link>https://wtpersonal.stream/tags/proxmox/</link><description>Recent content in Proxmox on WTPersonal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 04 Jan 2025 20:14:00 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/proxmox/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox Gist</title><link>https://wtpersonal.stream/post/gist/proxmox/proxmox/</link><pubDate>Sat, 04 Jan 2025 20:14:00 +0800</pubDate><guid>https://wtpersonal.stream/post/gist/proxmox/proxmox/</guid><description>&lt;p>There are a few gists for proxmox.&lt;/p></description></item><item><title>Proxmox Commands</title><link>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</link><pubDate>Sun, 15 Nov 2020 17:01:50 +0800</pubDate><guid>https://wtpersonal.stream/post/proxmox/proxmox-cmd/proxmox-cmd/</guid><description>&lt;p>Record usd Proxmox VE commands.&lt;/p></description></item><item><title>Proxmox changes Sources</title><link>https://wtpersonal.stream/post/proxmox/sources/sources/</link><pubDate>Sun, 19 Jul 2020 16:52:26 +0800</pubDate><guid>https://wtpersonal.stream/post/proxmox/sources/sources/</guid><description>&lt;p>The official Proxmox provides a enterprise source,
 but we do not need to subscription a enterprise license in home use.
 We only need the free and well-supported community source.
 By the way, we get a limitation download speed from international connect

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on WTPersonal</title><link>https://wtpersonal.stream/zh-cn/tags/golang/</link><description>Recent content in Golang on WTPersonal</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 11 Nov 2021 13:15:46 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Golang</title><link>https://wtpersonal.stream/zh-cn/post/memo/golang/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:13 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/memo/golang/golang/</guid><description>&lt;h2 id="编程" class="headerLink">
- &lt;a href="#%e7%bc%96%e7%a8%8b" class="header-mark">&lt;/a>1 编程&lt;/h2>&lt;ul>
+ &lt;a href="#%e7%bc%96%e7%a8%8b" class="header-mark">&lt;/a>编程&lt;/h2>&lt;ul>
 &lt;li>命令行中格式化显示文字 (X)
 &lt;ul>
 &lt;li>还在寻找方法. &amp;lsquo;\t&amp;rsquo; 并不能很好的对齐.&lt;/li>
@@ -13,4 +13,4 @@
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="网络" class="headerLink">
- &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>2 网络&lt;/h2></description></item></channel></rss>
+ &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>网络&lt;/h2></description></item></channel></rss>
