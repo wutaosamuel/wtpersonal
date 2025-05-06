@@ -3,7 +3,7 @@
 
 ## 关于我
 
-[about me](/images/avataaar2.png)
+[about me](/images/avatar2.png)
 
 支持开源，喜欢折腾，广而不精，劳逸结合(懒)，沉默寡言
 

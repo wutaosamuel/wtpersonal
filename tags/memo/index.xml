@@ -27,7 +27,7 @@
  &lt;/tr>
  &lt;/tbody>
  &lt;/table>
-&lt;/div></description></item><item><title>OpenWRT</title><link>https://wtpersonal.stream/post/memo/openwrt/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/openwrt/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
+&lt;/div></description></item><item><title>OpenWRT</title><link>https://wtpersonal.stream/post/en/memo/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>https://wtpersonal.stream/post/en/memo/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
 &lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="#wildcard-domain-&amp;amp;-subdomain" rel="">Wildcard Domain&amp;amp;Subdomain&lt;/a>&lt;/li>
@@ -36,7 +36,22 @@
  &lt;a href="#wildcard-domain--subdomain" class="header-mark">&lt;/a>Wildcard Domain &amp;amp; Subdomain&lt;/h2>&lt;h3 id="introduction" class="headerLink">
  &lt;a href="#introduction" class="header-mark">&lt;/a>Introduction&lt;/h3>&lt;p>The IP address can be fixed manually in &lt;strong>Network -&amp;gt; DHCP and DNS -&amp;gt; Static Leases&lt;/strong>.
 The default local domain will be automatically allocated by hostname.
-For instance, &lt;strong>ubuntuNginx.lan&lt;/strong> is the local domain of &lt;strong>ubuntuNginx&lt;/strong> machine.&lt;/p></description></item><item><title>Angular</title><link>https://wtpersonal.stream/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+For instance, &lt;strong>ubuntuNginx.lan&lt;/strong> is the local domain of &lt;strong>ubuntuNginx&lt;/strong> machine.&lt;/p></description></item><item><title>OpenWRT</title><link>https://wtpersonal.stream/post/memo/openwrt/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/openwrt/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
+&lt;h2 id="contents" class="headerLink">
+ &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="#wildcard-domain-&amp;amp;-subdomain" rel="">Wildcard Domain&amp;amp;Subdomain&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="wildcard-domain--subdomain" class="headerLink">
+ &lt;a href="#wildcard-domain--subdomain" class="header-mark">&lt;/a>Wildcard Domain &amp;amp; Subdomain&lt;/h2>&lt;h3 id="introduction" class="headerLink">
+ &lt;a href="#introduction" class="header-mark">&lt;/a>Introduction&lt;/h3>&lt;p>The IP address can be fixed manually in &lt;strong>Network -&amp;gt; DHCP and DNS -&amp;gt; Static Leases&lt;/strong>.
+The default local domain will be automatically allocated by hostname.
+For instance, &lt;strong>ubuntuNginx.lan&lt;/strong> is the local domain of &lt;strong>ubuntuNginx&lt;/strong> machine.&lt;/p></description></item><item><title>Collection</title><link>https://wtpersonal.stream/post/en/memo/collection/</link><pubDate>Wed, 10 Nov 2021 05:54:27 +0000</pubDate><guid>https://wtpersonal.stream/post/en/memo/collection/</guid><description/></item><item><title>Memo</title><link>https://wtpersonal.stream/post/en/memo/memo/</link><pubDate>Wed, 03 Nov 2021 17:07:46 +0800</pubDate><guid>https://wtpersonal.stream/post/en/memo/memo/</guid><description>&lt;h2 id="-introduction" class="headerLink">
+ &lt;a href="#-introduction" class="header-mark">&lt;/a>&amp;mdash;&amp;mdash; Introduction&lt;/h2>&lt;h2 id="background" class="headerLink">
+ &lt;a href="#background" class="header-mark">&lt;/a>Background&lt;/h2>&lt;p>Now, the network infrastructure has spread out from submarine communications cable system to low earth orbit communications system.
+It breaks through space constrains. Wherever people live, Everyone can share their own feelings, knowledge and experience on the internet.
+Therefore, The place where people can acquire knowledge is transferred from library to the internet.
+That further leads to a massive increase in depth and breadth of knowledge that people have acquired.
+On the internet, we can find a lot of blogs, articles and notes. They&amp;rsquo;re detailed explain concepts and usage of knowledge.&lt;/p></description></item><item><title>Angular</title><link>https://wtpersonal.stream/post/en/memo/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/en/memo/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="bidirectional-data-flow-between-components" rel="">Bidirectional data flow between components(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
 &lt;/ol>
@@ -48,7 +63,26 @@ For instance, &lt;strong>ubuntuNginx.lan&lt;/strong> is the local domain of &lt;
 &lt;/ul>
 &lt;p>Bidirectional data flow between parent component and child component.
 It uses @Input and @Output decorates the variables.
-The more Input and Output details are at &lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">official angular guide&lt;/a>&lt;/p></description></item><item><title>Golang</title><link>https://wtpersonal.stream/post/memo/golang/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/golang/golang/</guid><description>&lt;h2 id="programming" class="headerLink">
+The more Input and Output details are at &lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">official angular guide&lt;/a>&lt;/p></description></item><item><title>Angular</title><link>https://wtpersonal.stream/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+ &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="bidirectional-data-flow-between-components" rel="">Bidirectional data flow between components(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="bidirectional-data-flow-between-components" class="headerLink">
+ &lt;a href="#bidirectional-data-flow-between-components" class="header-mark">&lt;/a>Bidirectional data flow between components&lt;/h2>&lt;h3 id="sometimes-not-work-very-well-abandon" class="headerLink">
+ &lt;a href="#sometimes-not-work-very-well-abandon" class="header-mark">&lt;/a>Sometimes, not work very well. ABANDON&lt;/h3>&lt;ul>
+&lt;li>@Input value and @Output valueChange cannot detect value change when child component valueChange emit a value, especially, Multiple inheritance.&lt;/li>
+&lt;li>next, try to use @ViewChild or @ViewChildren&lt;/li>
+&lt;/ul>
+&lt;p>Bidirectional data flow between parent component and child component.
+It uses @Input and @Output decorates the variables.
+The more Input and Output details are at &lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">official angular guide&lt;/a>&lt;/p></description></item><item><title>Golang</title><link>https://wtpersonal.stream/post/en/memo/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/en/memo/golang/</guid><description>&lt;h2 id="programming" class="headerLink">
+ &lt;a href="#programming" class="header-mark">&lt;/a>Programming&lt;/h2>&lt;h3 id="format-text-string-in-console-display-x" class="headerLink">
+ &lt;a href="#format-text-string-in-console-display-x" class="header-mark">&lt;/a>Format text string in console display (X)&lt;/h3>&lt;ul>
+&lt;li>Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text&lt;/li>
+&lt;li>Consider to try &amp;lsquo;imgui&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;h2 id="network" class="headerLink">
+ &lt;a href="#network" class="header-mark">&lt;/a>Network&lt;/h2></description></item><item><title>Golang</title><link>https://wtpersonal.stream/post/memo/golang/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/golang/golang/</guid><description>&lt;h2 id="programming" class="headerLink">
  &lt;a href="#programming" class="header-mark">&lt;/a>Programming&lt;/h2>&lt;h3 id="format-text-string-in-console-display-x" class="headerLink">
  &lt;a href="#format-text-string-in-console-display-x" class="header-mark">&lt;/a>Format text string in console display (X)&lt;/h3>&lt;ul>
 &lt;li>Looking for the solution. The &amp;lsquo;\t&amp;rsquo; did not work, especially, cannot align upper and lower text&lt;/li>

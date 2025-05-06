@@ -13,4 +13,19 @@
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="网络" class="headerLink">
+ &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>网络&lt;/h2></description></item><item><title>Golang</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:13 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/golang/</guid><description>&lt;h2 id="编程" class="headerLink">
+ &lt;a href="#%e7%bc%96%e7%a8%8b" class="header-mark">&lt;/a>编程&lt;/h2>&lt;ul>
+&lt;li>命令行中格式化显示文字 (X)
+&lt;ul>
+&lt;li>还在寻找方法. &amp;lsquo;\t&amp;rsquo; 并不能很好的对齐.&lt;/li>
+&lt;li>考虑尝试 &amp;lsquo;imgui&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>abc
+&lt;ul>
+&lt;li>1.1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="网络" class="headerLink">
  &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>网络&lt;/h2></description></item></channel></rss>

@@ -7,4 +7,13 @@
  &lt;a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-ip-%e9%80%9a%e9%85%8d" class="header-mark">&lt;/a>子域名及多级域名的 IP 通配&lt;/h2>&lt;h3 id="介绍" class="headerLink">
  &lt;a href="#%e4%bb%8b%e7%bb%8d" class="header-mark">&lt;/a>介绍&lt;/h3>&lt;p>IP 可以在 &lt;strong>网络 -&amp;gt; DHCP/DNS -&amp;gt; 静态地址&lt;/strong> 固定.
 默认的本地域名是根据主机名来的.
+例子: &lt;strong>ubuntuNginx.lan&lt;/strong> 是 &lt;strong>ubuntuNginx&lt;/strong> 机器的本地域名.&lt;/p></description></item><item><title>OpenWRT</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
+&lt;h2 id="目录" class="headerLink">
+ &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-mark">&lt;/a>目录&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-IP-%e9%80%9a%e9%85%8d" rel="">子域名及多级域名的 IP 通配&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="子域名及多级域名的-ip-通配" class="headerLink">
+ &lt;a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-ip-%e9%80%9a%e9%85%8d" class="header-mark">&lt;/a>子域名及多级域名的 IP 通配&lt;/h2>&lt;h3 id="介绍" class="headerLink">
+ &lt;a href="#%e4%bb%8b%e7%bb%8d" class="header-mark">&lt;/a>介绍&lt;/h3>&lt;p>IP 可以在 &lt;strong>网络 -&amp;gt; DHCP/DNS -&amp;gt; 静态地址&lt;/strong> 固定.
+默认的本地域名是根据主机名来的.
 例子: &lt;strong>ubuntuNginx.lan&lt;/strong> 是 &lt;strong>ubuntuNginx&lt;/strong> 机器的本地域名.&lt;/p></description></item></channel></rss>
