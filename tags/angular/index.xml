@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angular on WTPersonal</title><link>https://wtpersonal.stream/tags/angular/</link><description>Recent content in Angular on WTPersonal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Dec 2021 13:15:46 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/tags/angular/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular</title><link>https://wtpersonal.stream/post/en/memo/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/en/memo/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angular on WTPersonal</title><link>/tags/angular/</link><description>Recent content in Angular on WTPersonal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Dec 2021 13:15:46 +0800</lastBuildDate><atom:link href="/tags/angular/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular</title><link>/post/en/memo/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>/post/en/memo/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="bidirectional-data-flow-between-components" rel="">Bidirectional data flow between components(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
 &lt;/ol>
@@ -10,7 +10,7 @@
 &lt;/ul>
 &lt;p>Bidirectional data flow between parent component and child component.
 It uses @Input and @Output decorates the variables.
-The more Input and Output details are at &lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">official angular guide&lt;/a>&lt;/p></description></item><item><title>Angular</title><link>https://wtpersonal.stream/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+The more Input and Output details are at &lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">official angular guide&lt;/a>&lt;/p></description></item><item><title>Angular</title><link>/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="bidirectional-data-flow-between-components" rel="">Bidirectional data flow between components(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
 &lt;/ol>

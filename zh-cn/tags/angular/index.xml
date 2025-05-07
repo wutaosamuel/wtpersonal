@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angular on WTPersonal</title><link>https://wtpersonal.stream/zh-cn/tags/angular/</link><description>Recent content in Angular on WTPersonal</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 06 Dec 2021 13:15:46 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/tags/angular/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular</title><link>https://wtpersonal.stream/zh-cn/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angular on WTPersonal</title><link>/zh-cn/tags/angular/</link><description>Recent content in Angular on WTPersonal</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 06 Dec 2021 13:15:46 +0800</lastBuildDate><atom:link href="/zh-cn/tags/angular/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular</title><link>/zh-cn/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>/zh-cn/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="%e7%bb%84%e4%bb%b6%e4%b8%ad%e5%8f%8c%e5%90%91%e6%95%b0%e6%8d%ae%e6%b5%81%e5%8a%a8" rel="">组件中双向数据流动(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
 &lt;/ol>
@@ -8,7 +8,7 @@
 &lt;li>@Input value 和 @Output valueChange 无法准确检测 value 值已经改变. 在多次继承下尤其明显.&lt;/li>
 &lt;li>会尝试使用传值@ViewChild 或者@ViewChildren&lt;/li>
 &lt;/ul>
-&lt;p>母子组件的双向数据流动会使用@Input 和@Output 来修饰变量. 更多的细节参考&lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">官方导向&lt;/a>&lt;/p></description></item><item><title>Angular</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+&lt;p>母子组件的双向数据流动会使用@Input 和@Output 来修饰变量. 更多的细节参考&lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">官方导向&lt;/a>&lt;/p></description></item><item><title>Angular</title><link>/zh-cn/post/zh/memo/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>/zh-cn/post/zh/memo/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="%e7%bb%84%e4%bb%b6%e4%b8%ad%e5%8f%8c%e5%90%91%e6%95%b0%e6%8d%ae%e6%b5%81%e5%8a%a8" rel="">组件中双向数据流动(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
 &lt;/ol>
