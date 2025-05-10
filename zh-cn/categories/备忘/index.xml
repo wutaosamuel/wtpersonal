@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>备忘 on WTPersonal</title><link>/zh-cn/categories/%E5%A4%87%E5%BF%98/</link><description>Recent content in 备忘 on WTPersonal</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 23 Jan 2025 20:29:20 +0800</lastBuildDate><atom:link href="/zh-cn/categories/%E5%A4%87%E5%BF%98/index.xml" rel="self" type="application/rss+xml"/><item><title>C语言的函数</title><link>/zh-cn/post/memo/c-function/c-function/</link><pubDate>Thu, 23 Jan 2025 20:29:20 +0800</pubDate><guid>/zh-cn/post/memo/c-function/c-function/</guid><description>&lt;p>C的函数&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>备忘 on WTPersonal</title><link>https://wtpersonal.stream/zh-cn/categories/%E5%A4%87%E5%BF%98/</link><description>Recent content in 备忘 on WTPersonal</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 23 Jan 2025 20:29:20 +0800</lastBuildDate><atom:link href="https://wtpersonal.stream/zh-cn/categories/%E5%A4%87%E5%BF%98/index.xml" rel="self" type="application/rss+xml"/><item><title>C语言的函数</title><link>https://wtpersonal.stream/zh-cn/post/memo/c-function/c-function/</link><pubDate>Thu, 23 Jan 2025 20:29:20 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/memo/c-function/c-function/</guid><description>&lt;p>C的函数&lt;/p>
 &lt;h2 id="目录" class="headerLink">
  &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-mark">&lt;/a>目录&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="#%e6%8a%8a%e5%ad%97%e7%ac%a6%e4%b8%b2%e8%b5%8b%e5%80%bc%e5%88%b0%e5%8f%98%e9%87%8f%e4%b8%ad" rel="">把字符串赋值到变量中&lt;/a>&lt;/li>
@@ -27,7 +27,7 @@
  &lt;/tr>
  &lt;/tbody>
  &lt;/table>
-&lt;/div></description></item><item><title>OpenWRT</title><link>/zh-cn/post/memo/openwrt/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>/zh-cn/post/memo/openwrt/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
+&lt;/div></description></item><item><title>OpenWRT</title><link>https://wtpersonal.stream/zh-cn/post/memo/openwrt/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/memo/openwrt/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
 &lt;h2 id="目录" class="headerLink">
  &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-mark">&lt;/a>目录&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-IP-%e9%80%9a%e9%85%8d" rel="">子域名及多级域名的 IP 通配&lt;/a>&lt;/li>
@@ -36,7 +36,7 @@
  &lt;a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-ip-%e9%80%9a%e9%85%8d" class="header-mark">&lt;/a>子域名及多级域名的 IP 通配&lt;/h2>&lt;h3 id="介绍" class="headerLink">
  &lt;a href="#%e4%bb%8b%e7%bb%8d" class="header-mark">&lt;/a>介绍&lt;/h3>&lt;p>IP 可以在 &lt;strong>网络 -&amp;gt; DHCP/DNS -&amp;gt; 静态地址&lt;/strong> 固定.
 默认的本地域名是根据主机名来的.
-例子: &lt;strong>ubuntuNginx.lan&lt;/strong> 是 &lt;strong>ubuntuNginx&lt;/strong> 机器的本地域名.&lt;/p></description></item><item><title>OpenWRT</title><link>/zh-cn/post/zh/memo/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>/zh-cn/post/zh/memo/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
+例子: &lt;strong>ubuntuNginx.lan&lt;/strong> 是 &lt;strong>ubuntuNginx&lt;/strong> 机器的本地域名.&lt;/p></description></item><item><title>OpenWRT</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/openwrt/</link><pubDate>Sat, 28 May 2022 17:52:50 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/openwrt/</guid><description>&lt;p>OpenWRT&lt;/p>
 &lt;h2 id="目录" class="headerLink">
  &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-mark">&lt;/a>目录&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-IP-%e9%80%9a%e9%85%8d" rel="">子域名及多级域名的 IP 通配&lt;/a>&lt;/li>
@@ -45,12 +45,12 @@
  &lt;a href="#%e5%ad%90%e5%9f%9f%e5%90%8d%e5%8f%8a%e5%a4%9a%e7%ba%a7%e5%9f%9f%e5%90%8d%e7%9a%84-ip-%e9%80%9a%e9%85%8d" class="header-mark">&lt;/a>子域名及多级域名的 IP 通配&lt;/h2>&lt;h3 id="介绍" class="headerLink">
  &lt;a href="#%e4%bb%8b%e7%bb%8d" class="header-mark">&lt;/a>介绍&lt;/h3>&lt;p>IP 可以在 &lt;strong>网络 -&amp;gt; DHCP/DNS -&amp;gt; 静态地址&lt;/strong> 固定.
 默认的本地域名是根据主机名来的.
-例子: &lt;strong>ubuntuNginx.lan&lt;/strong> 是 &lt;strong>ubuntuNginx&lt;/strong> 机器的本地域名.&lt;/p></description></item><item><title>收录</title><link>/zh-cn/post/zh/memo/collection/</link><pubDate>Wed, 10 Nov 2021 05:54:43 +0000</pubDate><guid>/zh-cn/post/zh/memo/collection/</guid><description/></item><item><title>备忘</title><link>/zh-cn/post/zh/memo/memo/</link><pubDate>Wed, 03 Nov 2021 17:07:39 +0800</pubDate><guid>/zh-cn/post/zh/memo/memo/</guid><description>&lt;h2 id="-介绍" class="headerLink">
+例子: &lt;strong>ubuntuNginx.lan&lt;/strong> 是 &lt;strong>ubuntuNginx&lt;/strong> 机器的本地域名.&lt;/p></description></item><item><title>收录</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/collection/</link><pubDate>Wed, 10 Nov 2021 05:54:43 +0000</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/collection/</guid><description/></item><item><title>备忘</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/memo/</link><pubDate>Wed, 03 Nov 2021 17:07:39 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/memo/</guid><description>&lt;h2 id="-介绍" class="headerLink">
  &lt;a href="#-%e4%bb%8b%e7%bb%8d" class="header-mark">&lt;/a>&amp;mdash;&amp;mdash; 介绍&lt;/h2>&lt;h2 id="背景" class="headerLink">
  &lt;a href="#%e8%83%8c%e6%99%af" class="header-mark">&lt;/a>背景&lt;/h2>&lt;p>现在, 网络的铺设已经从地面供应延伸到了近地轨道卫星, 网络的覆盖面获得了极大的提升.
 它超越了空间上的限制, 每个人都可以把自己的感受, 知识, 经验分享到网络上.
 因此, 人们获得知识的渠道已经从图书馆转移到了网络. 进一步导致了人们获得的知识的深度还是广度都得到了极大的提升.
-无论何种知识, 都可以在网络上找到相关的博客, 笔记详细的解释其原理以及用法.&lt;/p></description></item><item><title>Golang</title><link>/zh-cn/post/memo/golang/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:13 +0800</pubDate><guid>/zh-cn/post/memo/golang/golang/</guid><description>&lt;h2 id="编程" class="headerLink">
+无论何种知识, 都可以在网络上找到相关的博客, 笔记详细的解释其原理以及用法.&lt;/p></description></item><item><title>Golang</title><link>https://wtpersonal.stream/zh-cn/post/memo/golang/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:13 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/memo/golang/golang/</guid><description>&lt;h2 id="编程" class="headerLink">
  &lt;a href="#%e7%bc%96%e7%a8%8b" class="header-mark">&lt;/a>编程&lt;/h2>&lt;ul>
 &lt;li>命令行中格式化显示文字 (X)
 &lt;ul>
@@ -65,7 +65,7 @@
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="网络" class="headerLink">
- &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>网络&lt;/h2></description></item><item><title>Golang</title><link>/zh-cn/post/zh/memo/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:13 +0800</pubDate><guid>/zh-cn/post/zh/memo/golang/</guid><description>&lt;h2 id="编程" class="headerLink">
+ &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>网络&lt;/h2></description></item><item><title>Golang</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/golang/</link><pubDate>Wed, 03 Nov 2021 17:07:13 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/golang/</guid><description>&lt;h2 id="编程" class="headerLink">
  &lt;a href="#%e7%bc%96%e7%a8%8b" class="header-mark">&lt;/a>编程&lt;/h2>&lt;ul>
 &lt;li>命令行中格式化显示文字 (X)
 &lt;ul>
@@ -80,7 +80,7 @@
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="网络" class="headerLink">
- &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>网络&lt;/h2></description></item><item><title>Angular</title><link>/zh-cn/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>/zh-cn/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+ &lt;a href="#%e7%bd%91%e7%bb%9c" class="header-mark">&lt;/a>网络&lt;/h2></description></item><item><title>Angular</title><link>https://wtpersonal.stream/zh-cn/post/memo/angular/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/memo/angular/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="%e7%bb%84%e4%bb%b6%e4%b8%ad%e5%8f%8c%e5%90%91%e6%95%b0%e6%8d%ae%e6%b5%81%e5%8a%a8" rel="">组件中双向数据流动(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
 &lt;/ol>
@@ -90,7 +90,7 @@
 &lt;li>@Input value 和 @Output valueChange 无法准确检测 value 值已经改变. 在多次继承下尤其明显.&lt;/li>
 &lt;li>会尝试使用传值@ViewChild 或者@ViewChildren&lt;/li>
 &lt;/ul>
-&lt;p>母子组件的双向数据流动会使用@Input 和@Output 来修饰变量. 更多的细节参考&lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">官方导向&lt;/a>&lt;/p></description></item><item><title>Angular</title><link>/zh-cn/post/zh/memo/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>/zh-cn/post/zh/memo/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
+&lt;p>母子组件的双向数据流动会使用@Input 和@Output 来修饰变量. 更多的细节参考&lt;a href="https://angular.io/guide/inputs-outputs" target="_blank" rel="noopener noreferrer">官方导向&lt;/a>&lt;/p></description></item><item><title>Angular</title><link>https://wtpersonal.stream/zh-cn/post/zh/memo/angular/</link><pubDate>Wed, 03 Nov 2021 17:07:04 +0800</pubDate><guid>https://wtpersonal.stream/zh-cn/post/zh/memo/angular/</guid><description>&lt;h2 id="contents" class="headerLink">
  &lt;a href="#contents" class="header-mark">&lt;/a>Contents&lt;/h2>&lt;ol>
 &lt;li>&lt;a href="%e7%bb%84%e4%bb%b6%e4%b8%ad%e5%8f%8c%e5%90%91%e6%95%b0%e6%8d%ae%e6%b5%81%e5%8a%a8" rel="">组件中双向数据流动(@Input &amp;amp; @Output)&lt;/a>&lt;/li>
 &lt;/ol>
